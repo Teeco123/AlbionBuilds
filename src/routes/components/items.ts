@@ -311,8 +311,116 @@ export let armors = [
 ];
 
 export let boots = [
+	//Cloth Sandals
 	{
-		name: "Royal shoes"
+		name: "Sandals of Purity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Sandals%20of%20Purity.png?locale=en"
+	},
+	{
+		name: "Feyscale Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Sandals.png?locale=en"
+	},
+	{
+		name: "Cultist Sandals	",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Sandals.png?locale=en"
+	},
+	{
+		name: "Fiend Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Sandals.png?locale=en"
+	},
+	{
+		name: "Druid Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Sandals.png?locale=en"
+	},
+	{
+		name: "Royal Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Sandals.png?locale=en"
+	},
+	{
+		name: "Mage Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Sandals.png?locale=en"
+	},
+	{
+		name: "Cleric Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Sandals.png?locale=en"
+	},
+	{
+		name: "Scholar Sandals",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Sandals.png?locale=en"
+	},
+	//Leather Shoes
+	{
+		name: "Shoes of Tenacity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Shoes%20of%20Tenacity.png?locale=en"
+	},
+	{
+		name: "Mistwalker Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Shoes.png?locale=en"
+	},
+	{
+		name: "Specter Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Shoes.png?locale=en"
+	},
+	{
+		name: "Hellion Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Shoes.png?locale=en"
+	},
+	{
+		name: "Stalker Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Shoes.png?locale=en"
+	},
+	{
+		name: "Royal Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Shoes.png?locale=en"
+	},
+	{
+		name: "Assasin Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Shoes.png?locale=en"
+	},
+	{
+		name: "Hunter Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Shoes.png?locale=en"
+	},
+	{
+		name: "Mercenary Shoes",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Shoes.png?locale=en"
+	},
+	//Plate Boots
+	{
+		name: "Boots of Valor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Boots%20of%20Valor.png?locale=en"
+	},
+	{
+		name: "Duskweaver Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Boots.png?locale=en"
+	},
+	{
+		name: "Judicator Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Boots.png?locale=en"
+	},
+	{
+		name: "Demon Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Boots.png?locale=en"
+	},
+	{
+		name: "Graveguard Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Boots.png?locale=en"
+	},
+	{
+		name: "Royal Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Boots.png?locale=en"
+	},
+	{
+		name: "Guardian Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en"
+	},
+	{
+		name: "Knight Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en"
+	},
+	{
+		name: "Soldier Boots",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Boots.png?locale=en"
 	}
 ];
 
