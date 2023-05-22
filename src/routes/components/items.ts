@@ -120,10 +120,6 @@ export let helmets = [
 		name: "Scholar Cowl",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
 	},
-	{
-		name: "Scholar Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
-	},
 	//Leather Hoods
 	{
 		name: "Hood of Tenacity",
@@ -201,8 +197,116 @@ export let helmets = [
 ];
 
 export let armors = [
+	//Cloth Robes
 	{
-		name: "Robe of purity"
+		name: "Robe of Purity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Robe%20of%20Purity.png?locale=en"
+	},
+	{
+		name: "Feyscale Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Robe.png?locale=en"
+	},
+	{
+		name: "Cultist Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Robe.png?locale=en"
+	},
+	{
+		name: "Fiend Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Robe.png?locale=en"
+	},
+	{
+		name: "Druid Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Robe.png?locale=en"
+	},
+	{
+		name: "Royal Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Robe.png?locale=en"
+	},
+	{
+		name: "Mage Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Robe.png?locale=en"
+	},
+	{
+		name: "Cleric Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Robe.png?locale=en"
+	},
+	{
+		name: "Scholar Robe",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Robe.png?locale=en"
+	},
+	//Leather Jackets
+	{
+		name: "Jacket of Tenacity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Jacket%20of%20Tenacity.png?locale=en"
+	},
+	{
+		name: "Mistwalker Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Jacket.png?locale=en"
+	},
+	{
+		name: "Specter Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Jacket.png?locale=en"
+	},
+	{
+		name: "Hellion Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Jacket.png?locale=en"
+	},
+	{
+		name: "Stalker Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Jacket.png?locale=en"
+	},
+	{
+		name: "Royal Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Jacket.png?locale=en"
+	},
+	{
+		name: "Assasin Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Jacket.png?locale=en"
+	},
+	{
+		name: "Hunter Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Jacket.png?locale=en"
+	},
+	{
+		name: "Mercenary Jacket",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Jacket.png?locale=en"
+	},
+	//Plate Armors
+	{
+		name: "Armor of Valor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Armor%20of%20Valor.png?locale=en"
+	},
+	{
+		name: "Duskweaver Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Armor.png?locale=en"
+	},
+	{
+		name: "Judicator Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Armor.png?locale=en"
+	},
+	{
+		name: "Demon Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Armor.png?locale=en"
+	},
+	{
+		name: "Graveguard Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Armor.png?locale=en"
+	},
+	{
+		name: "Royal Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Armor.png?locale=en"
+	},
+	{
+		name: "Guardian Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Armor.png?locale=en"
+	},
+	{
+		name: "Knight Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Armor.png?locale=en"
+	},
+	{
+		name: "Soldier Armor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Armor.png?locale=en"
 	}
 ];
 
