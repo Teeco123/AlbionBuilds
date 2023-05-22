@@ -1,18 +1,111 @@
 export let weapons = [
+	//Curesed Staffs
 	{
-		name: "Nature Staff",
+		name: "Shadowcaller",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF.png"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_AVALON.png?locale=en"
 	},
 	{
-		name: "Druidic Staff",
-		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF_KEEPER.png?"
-	},
-	{
-		name: "Great Nature",
+		name: "Damnation Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_NATURESTAFF.png?"
+		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF_MORGANA.png?locale=en"
+	},
+	{
+		name: "Cursed Skull",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_SKULLORB_HELL.png?locale=en"
+	},
+	{
+		name: "Lifecurse Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_UNDEAD.png?locale=en"
+	},
+	{
+		name: "Demonic Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DEMONICSTAFF.png?locale=en"
+	},
+	{
+		name: "Great Cursed Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF.png?locale=en"
+	},
+	{
+		name: "Cursed Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF.png?locale=en"
+	},
+	//Frost Staffs
+	{
+		name: "Chillhowl",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_AVALON.png?locale=en"
+	},
+	{
+		name: "Permafrost",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ICECRYSTAL_UNDEAD.png?locale=en"
+	},
+	{
+		name: "Icicle Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ICEGAUNTLETS_HELL.png?locale=en"
+	},
+	{
+		name: "Hoarfrost Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_KEEPER.png?locale=en"
+	},
+	{
+		name: "Glacial Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_GLACIALSTAFF.png?locale=en"
+	},
+	{
+		name: "Great Frost Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_FROSTSTAFF.png?locale=en"
+	},
+	{
+		name: "Frost Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF.png?locale=en"
+	},
+	//Arcanist
+	{
+		name: "Evensong",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANE_RINGPAIR_AVALON.png?locale=en"
+	},
+	{
+		name: "Malevolent Locus",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICORB_MORGANA.png?locale=en"
+	},
+	{
+		name: "Occult Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANESTAFF_HELL.png?locale=en"
+	},
+	{
+		name: "Witchwork Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF_UNDEAD.png?locale=en"
+	},
+	{
+		name: "Enigmatic Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICSTAFF.png?locale=en"
+	},
+	{
+		name: "Great Arcane Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANESTAFF.png?locale=en"
+	},
+	{
+		name: "Arcane Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF.png?locale=en"
 	}
 ];
 
@@ -32,7 +125,7 @@ export let offhands = [
 	},
 	{
 		name: "Eye of Secrets",
-		img: "https://wiki.albiononline.com/wiki/Elder%27s_Eye_of_Secrets"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Eye%20of%20Secrets.png?locale=en"
 	},
 	{
 		name: "Tome of spells",
