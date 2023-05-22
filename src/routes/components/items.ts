@@ -17,6 +17,7 @@ export let weapons = [
 ];
 
 export let offhands = [
+	//Mage Offhands
 	{
 		name: "Celesial Censer",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Celestial%20Censer.png?locale=en"
@@ -37,6 +38,7 @@ export let offhands = [
 		name: "Tome of spells",
 		img: "https://render.albiononline.com/v1/item/Rosalia's%20Diary.png?locale=en"
 	},
+	//Hunter Offhands
 	{
 		name: "Sacred Scepter",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Sacred%20Scepter.png?locale=en"
@@ -57,6 +59,7 @@ export let offhands = [
 		name: "Torch",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Torch.png?locale=en"
 	},
+	//Warrior Offhands
 	{
 		name: "Astral Aegis",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Astral%20Aegis.png?locale=en"
@@ -80,17 +83,18 @@ export let offhands = [
 ];
 
 export let helmets = [
+	//Cloth Cowls
 	{
 		name: "Cowl of Purity",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Cowl%20of%20Purity.png?locale=en"
 	},
 	{
-		name: "Cultist Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Cowl.png?locale=en"
-	},
-	{
 		name: "Feyscale Hat",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Hat.png?locale=en"
+	},
+	{
+		name: "Cultist Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Cowl.png?locale=en"
 	},
 	{
 		name: "Fiend Cowl",
@@ -117,8 +121,82 @@ export let helmets = [
 		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
 	},
 	{
-		name: "Graveguard helmet",
-		img: ""
+		name: "Scholar Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
+	},
+	//Leather Hoods
+	{
+		name: "Hood of Tenacity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hood%20of%20Tenacity.png?locale=en"
+	},
+	{
+		name: "Mistwalker Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Hood.png?locale=en"
+	},
+	{
+		name: "Specter Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Hood.png?locale=en"
+	},
+	{
+		name: "Hellion Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Hood.png?locale=en"
+	},
+	{
+		name: "Stalker Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Hood.png?locale=en"
+	},
+	{
+		name: "Royal Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Hood.png?locale=en"
+	},
+	{
+		name: "Assasin Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Hood.png?locale=en"
+	},
+	{
+		name: "Hunter Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Hood.png?locale=en"
+	},
+	{
+		name: "Mercenary Hood",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Hood.png?locale=en"
+	},
+	//Plate Helmet
+	{
+		name: "Helmet of Valor",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Helmet%20of%20Valor.png?locale=en"
+	},
+	{
+		name: "Duskweaver Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Helmet.png?locale=en"
+	},
+	{
+		name: "Judicator Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Helmet.png?locale=en"
+	},
+	{
+		name: "Demon Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Helmet.png?locale=en"
+	},
+	{
+		name: "Graveguard Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Helmet.png?locale=en"
+	},
+	{
+		name: "Royal Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Helmet.png?locale=en"
+	},
+	{
+		name: "Guardian Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Helmet.png?locale=en"
+	},
+	{
+		name: "Knight Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Helmet.png?locale=en"
+	},
+	{
+		name: "Soldier Helmet",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Helmet.png?locale=en"
 	}
 ];
 
