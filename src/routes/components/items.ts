@@ -18,22 +18,107 @@ export let weapons = [
 
 export let offhands = [
 	{
-		name: "Torch",
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF.png"
+		name: "Celesial Censer",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Celestial%20Censer.png?locale=en"
 	},
 	{
-		name: "Mistcaller",
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF_KEEPER.png?"
+		name: "Taproot",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Taproot.png?locale=en"
+	},
+	{
+		name: "Muisak",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Muisak.png?locale=en"
+	},
+	{
+		name: "Eye of Secrets",
+		img: "https://wiki.albiononline.com/wiki/Elder%27s_Eye_of_Secrets"
 	},
 	{
 		name: "Tome of spells",
-		img: "https://render.albiononline.com/v1/item/T8_2H_NATURESTAFF.png?"
+		img: "https://render.albiononline.com/v1/item/Rosalia's%20Diary.png?locale=en"
+	},
+	{
+		name: "Sacred Scepter",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Sacred%20Scepter.png?locale=en"
+	},
+	{
+		name: "Cryptcandle",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cryptcandle.png?locale=en"
+	},
+	{
+		name: "Leering Cane",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Leering%20Cane.png?locale=en"
+	},
+	{
+		name: "Mistcaller",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistcaller.png?locale=en"
+	},
+	{
+		name: "Torch",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Torch.png?locale=en"
+	},
+	{
+		name: "Astral Aegis",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Astral%20Aegis.png?locale=en"
+	},
+	{
+		name: "Facebreaker",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Facebreaker.png?locale=en"
+	},
+	{
+		name: "Caitiff Shield",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Caitiff%20Shield.png?locale=en"
+	},
+	{
+		name: "Sarcophagus",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Sarcophagus.png?locale=en"
+	},
+	{
+		name: "Shield",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Shield.png?locale=en"
 	}
 ];
 
 export let helmets = [
 	{
-		name: "Graveguard helmet"
+		name: "Cowl of Purity",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cowl%20of%20Purity.png?locale=en"
+	},
+	{
+		name: "Cultist Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Cowl.png?locale=en"
+	},
+	{
+		name: "Feyscale Hat",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Hat.png?locale=en"
+	},
+	{
+		name: "Fiend Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Cowl.png?locale=en"
+	},
+	{
+		name: "Royal Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Cowl.png?locale=en"
+	},
+	{
+		name: "Druid Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Cowl.png?locale=en"
+	},
+	{
+		name: "Mage Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Cowl.png?locale=en"
+	},
+	{
+		name: "Cleric Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Cowl.png?locale=en"
+	},
+	{
+		name: "Scholar Cowl",
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
+	},
+	{
+		name: "Graveguard helmet",
+		img: ""
 	}
 ];
 
