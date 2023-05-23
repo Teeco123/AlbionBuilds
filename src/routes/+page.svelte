@@ -1,15 +1,34 @@
 <script lang="ts">
-	import { weapons, offhands, capes, helmets, armors, boots } from "./components/items";
+	import { weapons, offhands, capes, helmets, armors, boots, potions } from "./components/items";
 
-	let selectedWeapon: { name: string; img: string } = { name: "", img: "" };
+	let selectedWeapon: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
 	let selectedOffhand: { name: string; img: string } = {
 		name: "",
-		img: "src\routesimages\no-offhand.png"
+		img: "src/routes/images/no-item.png"
 	};
-	let selectedHelmet: { name: string; img: string } = { name: "", img: "" };
-	let selectedArmor: { name: string; img: string } = { name: "", img: "" };
-	let selectedBoots: { name: string; img: string } = { name: "", img: "" };
-	let selectedCape: { name: string; img: string } = { name: "", img: "" };
+	let selectedHelmet: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
+	let selectedArmor: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
+	let selectedBoots: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
+	let selectedCape: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
+	let selectedPotion: { name: string; img: string } = {
+		name: "",
+		img: "src/routes/images/no-item.png"
+	};
 </script>
 
 <body>
@@ -81,28 +100,32 @@
 					{/each}
 				</select>
 			</label>
+			<!------------Potion select-------------->
+			<label>
+				Potion:
+				<select disabled={selectedWeapon.name == ""} bind:value={selectedPotion}>
+					{#each potions as potion}
+						<option value={potion}>
+							{potion.name}
+						</option>
+					{/each}
+				</select>
+			</label>
 		</form>
 		<p>Choose weapon first!</p>
 	</div>
 	<img src="src\routes\images\inventory.png" alt="inventory" class="inventory" />
 	<div class="items">
-		{#if selectedWeapon.onehand == true && selectedOffhand.name !== ""}
+		{#if selectedWeapon.onehand == true}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
 			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
 			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
 			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
 			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
 			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
-		{:else if selectedOffhand.name == ""}
-			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
-			<img id="offhand" src="src\routes\images\no-offhand.png" alt={selectedOffhand.name} />
-			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
-			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
-			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
-			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
 		{:else}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
-			<img id="offhand" src="src\routes\images\no-offhand.png" alt={selectedOffhand.name} />
+			<img id="offhand" src="src\routes\images\no-item.png" alt={selectedOffhand.name} />
 			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
 			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
 			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />

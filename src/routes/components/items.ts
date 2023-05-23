@@ -567,3 +567,34 @@ export let capes = [
 		img: "https://render.albiononline.com/v1/item/Elder's%20Avalonian%20Cape.png?locale=en"
 	}
 ];
+
+export let potions = [
+	{
+		name: "Resistance",
+		img: ""
+	},
+	{
+		name: "Gigantify",
+		img: ""
+	},
+	{
+		name: "Healing",
+		img: ""
+	},
+	{
+		name: "Energy",
+		img: ""
+	},
+	{
+		name: "Poison",
+		img: ""
+	},
+	{
+		name: "Sticky",
+		img: ""
+	},
+	{
+		name: "Invisibility",
+		img: ""
+	}
+];
