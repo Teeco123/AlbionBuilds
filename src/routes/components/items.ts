@@ -1,75 +1,557 @@
 export let weapons = [
-	//Curesed Staffs
+	//Cursed Staffs
 	{
 		name: "Shadowcaller",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_AVALON.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Inner Shadow",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Shadow.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Damnation Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF_MORGANA.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cursed Skull",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_SKULLORB_HELL.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_SKULLORB_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Lifecurse Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_UNDEAD.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Demonic Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_DEMONICSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_DEMONICSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Great Cursed Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_CURSEDSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cursed Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_CURSEDSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Vile curse",
+				img: "https://render.albiononline.com/v1/spell/Vile%20Curse.png?locale=en"
+			},
+			{
+				name: "Cursed Sickle",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Sickle.png?locale=en"
+			},
+			{
+				name: "Cursed Tar",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Tar.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Armor Piercer",
+				img: "https://render.albiononline.com/v1/spell/Armor%20Piercer.png?locale=en"
+			},
+			{
+				name: "Desecrate",
+				img: "https://render.albiononline.com/v1/spell/Desecrate.png?locale=en"
+			},
+			{
+				name: "Grudge",
+				img: "https://render.albiononline.com/v1/spell/Grudge.png?locale=en"
+			},
+			{
+				name: "Cursed Beam",
+				img: "https://render.albiononline.com/v1/spell/Cursed%20Beam.png?locale=en"
+			},
+			{
+				name: "Dark Matter",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Bane",
+				img: "https://render.albiononline.com/v1/spell/Bane.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
 	},
 	//Frost Staffs
 	{
 		name: "Chillhowl",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_AVALON.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Permafrost",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ICECRYSTAL_UNDEAD.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ICECRYSTAL_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Icicle Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ICEGAUNTLETS_HELL.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ICEGAUNTLETS_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Hoarfrost Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_KEEPER.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Glacial Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_GLACIALSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_GLACIALSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Great Frost Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_FROSTSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_FROSTSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Frost Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FROSTSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Frostbite",
+				img: "https://render.albiononline.com/v1/spell/Frostbite.png?locale=en"
+			},
+			{
+				name: "Ice shard",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Shard.png?locale=en"
+			},
+			{
+				name: "Frozen Surge",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		]
 	},
 	//Arcanist
 	{
@@ -179,7 +661,35 @@ export let helmets = [
 	//Cloth Cowls
 	{
 		name: "Cowl of Purity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cowl%20of%20Purity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cowl%20of%20Purity.png?locale=en",
+		spell: [
+			{
+				name: "Avalonian Beam",
+				img: "https://render.albiononline.com/v1/spell/Avalonian%20Beam.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Feyscale Hat",
@@ -293,7 +803,35 @@ export let armors = [
 	//Cloth Robes
 	{
 		name: "Robe of Purity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Robe%20of%20Purity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Robe%20of%20Purity.png?locale=en",
+		spell: [
+			{
+				name: "Energy Emission",
+				img: "https://render.albiononline.com/v1/spell/Energy%20Emission.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Feyscale Robe",
@@ -407,39 +945,327 @@ export let boots = [
 	//Cloth Sandals
 	{
 		name: "Sandals of Purity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Sandals%20of%20Purity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Sandals%20of%20Purity.png?locale=en",
+		spell: [
+			{
+				name: "Hover",
+				img: "https://render.albiononline.com/v1/spell/Hover.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Feyscale Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Ethereal Form",
+				img: "https://render.albiononline.com/v1/spell/Ethereal%20Form.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cultist Sandals	",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Rotten Ground",
+				img: "https://render.albiononline.com/v1/spell/Rotten%20Ground.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Fiend Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Position Swap",
+				img: "https://render.albiononline.com/v1/spell/Position%20Swap.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Druid Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Frost Walk",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Walk.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Defenseless Rush",
+				img: "https://render.albiononline.com/v1/spell/Defenseless%20Rush.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mage Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Delayed Teleport",
+				img: "https://render.albiononline.com/v1/spell/Delayed%20Teleport.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cleric Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Blink",
+				img: "https://render.albiononline.com/v1/spell/Blink.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Scholar Sandals",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Sandals.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Sandals.png?locale=en",
+		spell: [
+			{
+				name: "Focused Run",
+				img: "https://render.albiononline.com/v1/spell/Focused%20Run.png?locale=en"
+			},
+			{
+				name: "Energetic Sprint",
+				img: "https://render.albiononline.com/v1/spell/Energetic%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	//Leather Shoes
 	{
@@ -571,30 +1397,101 @@ export let capes = [
 export let potions = [
 	{
 		name: "Resistance",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Resistance%20Potion.png?locale=en"
 	},
 	{
 		name: "Gigantify",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Gigantify%20Potion.png?locale=en"
 	},
 	{
 		name: "Healing",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Healing%20Potion.png?locale=en"
 	},
 	{
 		name: "Energy",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Energy%20Potion.png?locale=en"
 	},
 	{
 		name: "Poison",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Poison%20Potion.png?locale=en"
 	},
 	{
 		name: "Sticky",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Major%20Sticky%20Potion.png?locale=en"
 	},
 	{
 		name: "Invisibility",
-		img: ""
+		img: "https://render.albiononline.com/v1/item/Invisibility%20Potion.png?locale=en"
+	}
+];
+
+export let food = [
+	{
+		name: "Stew",
+		img: "https://render.albiononline.com/v1/item/Beef%20Stew.png?locale=en"
+	},
+	{
+		name: "Avalonian Stew",
+		img: "https://render.albiononline.com/v1/item/Avalonian%20Beef%20Stew.png?locale=en"
+	},
+	{
+		name: "Eel Stew",
+		img: "https://render.albiononline.com/v1/item/Deadwater%20Eel%20Stew.png?locale=en"
+	},
+	{
+		name: "Omelette",
+		img: "https://render.albiononline.com/v1/item/Pork%20Omelette.png?locale=en"
+	},
+	{
+		name: "Avalonian Omelette",
+		img: "https://render.albiononline.com/v1/item/Avalonian%20Pork%20Omelette.png?locale=en"
+	},
+	{
+		name: "Crab Omelette",
+		img: "https://render.albiononline.com/v1/item/Dusthole%20Crab%20Omelette.png?locale=en"
+	},
+	{
+		name: "Roast",
+		img: "https://render.albiononline.com/v1/item/Roast%20Pork.png?locale=en"
+	},
+	{
+		name: "Roast Snapper",
+		img: "https://render.albiononline.com/v1/item/Roasted%20Puremist%20Snapper.png?locale=en"
+	},
+	{
+		name: "Sandwich",
+		img: "https://render.albiononline.com/v1/item/Beef%20Sandwich.png?locale=en"
+	},
+	{
+		name: "Avalonian Sandwich",
+		img: "https://render.albiononline.com/v1/item/Avalonian%20Beef%20Sandwich.png?locale=en"
+	},
+	{
+		name: "Lurcher Sandwich",
+		img: "https://render.albiononline.com/v1/item/Thunderfall%20Lurcher%20Sandwich.png?locale=en"
+	},
+	{
+		name: "Soup",
+		img: "https://render.albiononline.com/v1/item/Cabbage%20Soup.png?locale=en"
+	},
+	{
+		name: "Clam Soup",
+		img: "https://render.albiononline.com/v1/item/Blackbog%20Clam%20Soup.png?locale=en"
+	},
+	{
+		name: "Salad",
+		img: "https://render.albiononline.com/v1/item/Potato%20Salad.png?locale=en"
+	},
+	{
+		name: "Deepwater Salad",
+		img: "https://render.albiononline.com/v1/item/Deepwater%20Kraken%20Salad.png?locale=en"
+	},
+	{
+		name: "Pie",
+		img: "https://render.albiononline.com/v1/item/Pork%20Pie.png?locale=en"
+	},
+	{
+		name: "Deadeye Pie",
+		img: "https://render.albiononline.com/v1/item/Frostpeak%20Deadeye%20Pie.png?locale=en"
 	}
 ];
