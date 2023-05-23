@@ -2,7 +2,10 @@
 	import { weapons, offhands, capes, helmets, armors, boots } from "./components/items";
 
 	let selectedWeapon: { name: string; img: string } = { name: "", img: "" };
-	let selectedOffhand: { name: string; img: string } = { name: "", img: "" };
+	let selectedOffhand: { name: string; img: string } = {
+		name: "",
+		img: "src\routesimages\no-offhand.png"
+	};
 	let selectedHelmet: { name: string; img: string } = { name: "", img: "" };
 	let selectedArmor: { name: string; img: string } = { name: "", img: "" };
 	let selectedBoots: { name: string; img: string } = { name: "", img: "" };
@@ -37,7 +40,7 @@
 			<!-----------Helmet select------------->
 			<label>
 				Helmet:
-				<select bind:value={selectedHelmet}>
+				<select disabled={selectedWeapon.name == ""} bind:value={selectedHelmet}>
 					{#each helmets as helmet}
 						<option value={helmet}>
 							{helmet.name}
@@ -48,7 +51,7 @@
 			<!-----------Armor select-------------->
 			<label>
 				Armor:
-				<select bind:value={selectedArmor}>
+				<select disabled={selectedWeapon.name == ""} bind:value={selectedArmor}>
 					{#each armors as armor}
 						<option value={armor}>
 							{armor.name}
@@ -59,7 +62,7 @@
 			<!-----------Helmet select------------->
 			<label>
 				Boots:
-				<select bind:value={selectedBoots}>
+				<select disabled={selectedWeapon.name == ""} bind:value={selectedBoots}>
 					{#each boots as boots}
 						<option value={boots}>
 							{boots.name}
@@ -70,7 +73,7 @@
 			<!------------Cape select-------------->
 			<label>
 				Cape:
-				<select bind:value={selectedCape}>
+				<select disabled={selectedWeapon.name == ""} bind:value={selectedCape}>
 					{#each capes as cape}
 						<option value={cape}>
 							{cape.name}
@@ -79,19 +82,84 @@
 				</select>
 			</label>
 		</form>
+		<p>Choose weapon first!</p>
 	</div>
-	{#if selectedWeapon.onehand == true}
-		<img src={selectedWeapon.img} alt={selectedWeapon.name} />
-		<img src={selectedOffhand.img} alt={selectedOffhand.name} />
-		<img src={selectedHelmet.img} alt={selectedHelmet.name} />
-		<img src={selectedArmor.img} alt={selectedArmor.name} />
-		<img src={selectedBoots.img} alt={selectedBoots.name} />
-		<img src={selectedCape.img} alt={selectedCape.name} />
-	{:else}
-		<img src={selectedWeapon.img} alt={selectedWeapon.name} />
-		<img src={selectedHelmet.img} alt={selectedHelmet.name} />
-		<img src={selectedArmor.img} alt={selectedArmor.name} />
-		<img src={selectedBoots.img} alt={selectedBoots.name} />
-		<img src={selectedCape.img} alt={selectedCape.name} />
-	{/if}
+	<img src="src\routes\images\inventory.png" alt="inventory" class="inventory" />
+	<div class="items">
+		{#if selectedWeapon.onehand == true && selectedOffhand.name !== ""}
+			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
+			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
+			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
+			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
+			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
+			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
+		{:else if selectedOffhand.name == ""}
+			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
+			<img id="offhand" src="src\routes\images\no-offhand.png" alt={selectedOffhand.name} />
+			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
+			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
+			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
+			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
+		{:else}
+			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
+			<img id="offhand" src="src\routes\images\no-offhand.png" alt={selectedOffhand.name} />
+			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
+			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
+			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
+			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
+		{/if}
+	</div>
 </body>
+
+<style>
+	.inventory {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		bottom: -100px;
+		left: -150px;
+	}
+	.items img {
+		width: 94px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#weapon {
+		position: relative;
+		bottom: 180px;
+		left: -239px;
+	}
+
+	#offhand {
+		position: relative;
+		bottom: 273px;
+		left: -58px;
+	}
+
+	#helmet {
+		position: relative;
+		bottom: 458px;
+		left: -150px;
+	}
+
+	#armor {
+		position: relative;
+		bottom: 472px;
+		left: -150px;
+	}
+
+	#boots {
+		position: relative;
+		bottom: 486px;
+		left: -150px;
+	}
+
+	#cape {
+		position: relative;
+		bottom: 732px;
+		left: -58px;
+	}
+</style>
