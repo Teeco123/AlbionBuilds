@@ -4002,5 +4002,17 @@ export let food = [
 	{
 		name: "Deadeye Pie",
 		img: "https://render.albiononline.com/v1/item/Frostpeak%20Deadeye%20Pie.png?locale=en"
+	},
+	{
+		name: "Frostpeak Deadeye",
+		img: "https://render.albiononline.com/v1/item/Frostpeak%20Deadeye.png?locale=en"
+	},
+	{
+		name: "Danglemouth Catfish",
+		img: "https://render.albiononline.com/v1/item/Danglemouth%20Catfish.png?locale=en"
+	},
+	{
+		name: "River Sturgeon",
+		img: "https://render.albiononline.com/v1/item/River%20Sturgeon.png?locale=en"
 	}
 ];
