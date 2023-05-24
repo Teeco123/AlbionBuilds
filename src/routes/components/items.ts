@@ -693,109 +693,837 @@ export let helmets = [
 	},
 	{
 		name: "Feyscale Hat",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Hat.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Hat.png?locale=en",
+		spell: [
+			{
+				name: "Hyper Focus",
+				img: "https://render.albiononline.com/v1/spell/Hyper%20Focus.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cultist Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Inner Corruption",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Corruption.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Fiend Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Purge",
+				img: "https://render.albiononline.com/v1/spell/Purge.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Perpetual Energy",
+				img: "https://render.albiononline.com/v1/spell/Perpetual%20Energy.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Druid Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Circle of Inspiration",
+				img: "https://render.albiononline.com/v1/spell/Circle%20of%20Inspiration.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mage Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Firebreath",
+				img: "https://render.albiononline.com/v1/spell/Firebreath.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cleric Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Ice Block",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Block.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Scholar Cowl",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Cowl.png?locale=en",
+		spell: [
+			{
+				name: "Energy Shield",
+				img: "https://render.albiononline.com/v1/spell/Energy%20Shield.png?locale=en"
+			},
+			{
+				name: "Force Field",
+				img: "https://render.albiononline.com/v1/spell/Force%20Field.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	//Leather Hoods
 	{
 		name: "Hood of Tenacity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hood%20of%20Tenacity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hood%20of%20Tenacity.png?locale=en",
+		spell: [
+			{
+				name: "Nasty Wounds",
+				img: "https://render.albiononline.com/v1/spell/Nasty%20Wounds.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mistwalker Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Immortal",
+				img: "https://render.albiononline.com/v1/spell/Immortal.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Specter Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Flash of Insight",
+				img: "https://render.albiononline.com/v1/spell/Flash%20of%20Insight.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Hellion Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Smokebomb",
+				img: "https://render.albiononline.com/v1/spell/Smokebomb.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Stalker Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Mortal Agony",
+				img: "https://render.albiononline.com/v1/spell/Mortal%20Agony.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Growing Rage",
+				img: "https://render.albiononline.com/v1/spell/Growing%20Rage.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Assasin Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Meditation",
+				img: "https://render.albiononline.com/v1/spell/Meditation.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Hunter Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Retaliate",
+				img: "https://render.albiononline.com/v1/spell/Retaliate.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mercenary Hood",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Hood.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Hood.png?locale=en",
+		spell: [
+			{
+				name: "Howl",
+				img: "https://render.albiononline.com/v1/spell/Howl.png?locale=en"
+			},
+			{
+				name: "Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Cleanse.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	//Plate Helmet
 	{
 		name: "Helmet of Valor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Helmet%20of%20Valor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Helmet%20of%20Valor.png?locale=en",
+		spell: [
+			{
+				name: "Purifying Smoke",
+				img: "https://render.albiononline.com/v1/spell/Purifying%20Smoke.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Duskweaver Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Spider's Thread",
+				img: "https://render.albiononline.com/v1/spell/Spider's%20Thread.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Judicator Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Electric Discharge",
+				img: "https://render.albiononline.com/v1/spell/Electric%20Discharge.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Demon Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/WEAPON_SILENCE.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Graveguard Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Sacrafice",
+				img: "https://render.albiononline.com/v1/spell/Sacrifice.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Ballista Support Fire",
+				img: "https://render.albiononline.com/v1/spell/Ballista%20Support%20Fire.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Guardian Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Emergency Shield",
+				img: "https://render.albiononline.com/v1/spell/Emergency%20Shield.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Knight Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Displacement Immunity",
+				img: "https://render.albiononline.com/v1/spell/Displacement%20Immunity.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Soldier Helmet",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Helmet.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Helmet.png?locale=en",
+		spell: [
+			{
+				name: "Block",
+				img: "https://render.albiononline.com/v1/spell/Block.png?locale=en"
+			},
+			{
+				name: "Stone Skin",
+				img: "https://render.albiononline.com/v1/spell/Stone%20Skin.png?locale=en"
+			},
+			{
+				name: "Energy Regain",
+				img: "https://render.albiononline.com/v1/spell/ENERGYBURST_CHANNEL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	}
 ];
 
@@ -835,35 +1563,259 @@ export let armors = [
 	},
 	{
 		name: "Feyscale Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Wild Magic",
+				img: "https://render.albiononline.com/v1/spell/Wild%20Magic.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cultist Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Levitate",
+				img: "https://render.albiononline.com/v1/spell/Levitate.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Fiend Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Fear Aura",
+				img: "https://render.albiononline.com/v1/spell/Fear%20Aura.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Druid Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Obsessive Burst",
+				img: "https://render.albiononline.com/v1/spell/Obsessive%20Burst.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Magic Rune",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Rune.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mage Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Purging Shield",
+				img: "https://render.albiononline.com/v1/spell/Purging%20Shield.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Cleric Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Everlasting Spirit",
+				img: "https://render.albiononline.com/v1/spell/Everlasting%20Spirit.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Scholar Robe",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Robe.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Robe.png?locale=en",
+		spell: [
+			{
+				name: "Speed Caster",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Caster.png?locale=en"
+			},
+			{
+				name: "Frost Shield",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Aggression",
+				img: "https://render.albiononline.com/v1/spell/Aggression.png?locale=en"
+			},
+			{
+				name: "Concentration",
+				img: "https://render.albiononline.com/v1/spell/Concentration.png?locale=en"
+			},
+			{
+				name: "Efficiency",
+				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
+			}
+		]
 	},
 	//Leather Jackets
 	{
