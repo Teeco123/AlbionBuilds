@@ -3780,7 +3780,7 @@ export let boots = [
 	},
 	{
 		name: "Knight Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en",
+		img: "https://render.albiononline.com/v1/item/T8_SHOES_PLATE_SET2.png?locale=en",
 		spell: [
 			{
 				name: "Shield Charge",
@@ -3816,7 +3816,7 @@ export let boots = [
 	},
 	{
 		name: "Soldier Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Boots.png?locale=en",
+		img: "https://render.albiononline.com/v1/item/T8_SHOES_PLATE_SET1.png?locale=en",
 		spell: [
 			{
 				name: "Wanderlust",
