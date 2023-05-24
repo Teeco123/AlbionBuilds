@@ -1532,6 +1532,7 @@ export let armors = [
 	{
 		name: "Robe of Purity",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Robe%20of%20Purity.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Energy Emission",
@@ -1559,11 +1560,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Feyscale Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Feyscale%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Wild Magic",
@@ -1591,11 +1594,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Cultist Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Cultist%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Levitate",
@@ -1623,11 +1628,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Fiend Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Fiend%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Fear Aura",
@@ -1655,11 +1662,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Druid Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Druid%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Obsessive Burst",
@@ -1687,11 +1696,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Royal Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Magic Rune",
@@ -1719,11 +1730,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Mage Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Mage%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Purging Shield",
@@ -1751,11 +1764,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Cleric Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Cleric%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Everlasting Spirit",
@@ -1783,11 +1798,13 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	{
 		name: "Scholar Robe",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Scholar%20Robe.png?locale=en",
+		plate: false,
 		spell: [
 			{
 				name: "Speed Caster",
@@ -1815,81 +1832,361 @@ export let armors = [
 				name: "Efficiency",
 				img: "https://render.albiononline.com/v1/spell/Efficiency.png?locale=en"
 			}
-		]
+		],
+		passive2: []
 	},
 	//Leather Jackets
 	{
 		name: "Jacket of Tenacity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Jacket%20of%20Tenacity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Jacket%20of%20Tenacity.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Dynamic Defense",
+				img: "https://render.albiononline.com/v1/spell/Dynamic%20Defense.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Mistwalker Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Mist Cloud",
+				img: "https://render.albiononline.com/v1/spell/Mist%20Cloud.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Specter Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Self Ignition",
+				img: "https://render.albiononline.com/v1/spell/Self%20Ignition.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Hellion Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Life Steal Aura",
+				img: "https://render.albiononline.com/v1/spell/Life%20Steal%20Aura.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Stalker Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Electric Field",
+				img: "https://render.albiononline.com/v1/spell/Electric%20Field.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Royal Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Royal Banner",
+				img: "https://render.albiononline.com/v1/spell/Royal%20Banner.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Assasin Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Ambush",
+				img: "https://render.albiononline.com/v1/spell/Ambush.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Hunter Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Haste",
+				img: "https://render.albiononline.com/v1/spell/HASTE.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	{
 		name: "Mercenary Jacket",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Jacket.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Jacket.png?locale=en",
+		plate: false,
+		spell: [
+			{
+				name: "Bloodlust",
+				img: "https://render.albiononline.com/v1/spell/Bloodlust.png?locale=en"
+			},
+			{
+				name: "Inferno Shield",
+				img: "https://render.albiononline.com/v1/spell/Inferno%20Shield.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		],
+		passive2: []
 	},
 	//Plate Armors
 	{
 		name: "Armor of Valor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Armor%20of%20Valor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Armor%20of%20Valor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Duskweaver Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Judicator Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Demon Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Graveguard Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Royal Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Guardian Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Knight Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Armor.png?locale=en",
+		plate: true
 	},
 	{
 		name: "Soldier Armor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Armor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Armor.png?locale=en",
+		plate: true
 	}
 ];
 

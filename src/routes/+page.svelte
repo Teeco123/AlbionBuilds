@@ -56,9 +56,10 @@
 			}
 		]
 	};
-	let selectedArmor: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
+	let selectedArmor: { name: string; img: string; plate: boolean; spell: { name: string; img: string }[]; passive: { name: string; img: string }[]; passive2: { name: string; img: string }[] } = {
 		name: "",
 		img: "src/routes/images/no-item.png",
+		plate: false,
 		spell: [
 			{
 				name: "",
@@ -66,6 +67,12 @@
 			}
 		],
 		passive: [
+			{
+				name: "",
+				img: ""
+			}
+		],
+		passive2: [
 			{
 				name: "",
 				img: ""
@@ -233,6 +240,17 @@
 						{/each}
 					</select>
 				</label>
+				<!-----------Armor second passive select------------->
+				<label>
+					Passive 2:
+					<select disabled={!selectedArmor.plate} bind:value={selectedArmor.passive2[-10]}>
+						{#each selectedArmor.passive2 as spell}
+							<option value={spell}>
+								{spell.name}
+							</option>
+						{/each}
+					</select>
+				</label>
 			</div>
 			<div class="bootsSelect">
 				<!-----------Boots select------------->
@@ -334,32 +352,62 @@
 	</div>
 	<div class="spell-box">
 		<div class="spells">
-			<div class="weaponSpells">
-				<div class="itemName">{selectedWeapon.name}</div>
-				<img id="weaponSpell" src={selectedWeapon.img} alt={selectedWeapon.name} />
-				<img id="spell" src={selectedWeapon.Qspell[-10]?.img} alt={selectedWeapon.Qspell[-10]?.name} />
-				<img id="spell" src={selectedWeapon.Wspell[-10]?.img} alt={selectedWeapon.Wspell[-10]?.name} />
-				<img id="spell" src={selectedWeapon.Espell[0]?.img} alt={selectedWeapon.Espell[0]?.name} />
-				<img id="spell" src={selectedWeapon.Passive[-10]?.img} alt={selectedWeapon.Passive[-10]?.name} />
-			</div>
-			<div class="helmetSpells">
-				<div class="itemName">{selectedHelmet.name}</div>
-				<img id="helmetSpell" src={selectedHelmet.img} alt={selectedHelmet.name} />
-				<img id="spell" src={selectedHelmet.spell[-10]?.img} alt={selectedHelmet.spell[-10]?.name} />
-				<img id="spell" src={selectedHelmet.passive[-10]?.img} alt={selectedHelmet.passive[-10]?.name} />
-			</div>
-			<div class="armorSpells">
-				<div class="itemName">{selectedArmor.name}</div>
-				<img id="armorSpell" src={selectedArmor.img} alt={selectedArmor.name} />
-				<img id="spell" src={selectedArmor.spell[-10]?.img} alt={selectedArmor.spell[-10]?.name} />
-				<img id="spell" src={selectedArmor.passive[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
-			</div>
-			<div class="bootsSpells">
-				<div class="itemName">{selectedBoots.name}</div>
-				<img id="bootsSpell" src={selectedBoots.img} alt={selectedBoots.name} />
-				<img id="spell" src={selectedBoots.spell[-10]?.img} alt={selectedBoots.spell[-10]?.name} />
-				<img id="spell" src={selectedBoots.passive[-10]?.img} alt={selectedBoots.passive[-10]?.name} />
-			</div>
+			{#if selectedArmor.plate == true}
+				<div class="weaponSpells">
+					<div class="itemName">{selectedWeapon.name}</div>
+					<img id="weaponSpell" src={selectedWeapon.img} alt={selectedWeapon.name} />
+					<img id="spell" src={selectedWeapon.Qspell[-10]?.img} alt={selectedWeapon.Qspell[-10]?.name} />
+					<img id="spell" src={selectedWeapon.Wspell[-10]?.img} alt={selectedWeapon.Wspell[-10]?.name} />
+					<img id="spell" src={selectedWeapon.Espell[0]?.img} alt={selectedWeapon.Espell[0]?.name} />
+					<img id="spell" src={selectedWeapon.Passive[-10]?.img} alt={selectedWeapon.Passive[-10]?.name} />
+				</div>
+				<div class="helmetSpells">
+					<div class="itemName">{selectedHelmet.name}</div>
+					<img id="helmetSpell" src={selectedHelmet.img} alt={selectedHelmet.name} />
+					<img id="spell" src={selectedHelmet.spell[-10]?.img} alt={selectedHelmet.spell[-10]?.name} />
+					<img id="spell" src={selectedHelmet.passive[-10]?.img} alt={selectedHelmet.passive[-10]?.name} />
+				</div>
+				<div class="armorSpells">
+					<div class="itemName">{selectedArmor.name}</div>
+					<img id="armorSpell" src={selectedArmor.img} alt={selectedArmor.name} />
+					<img id="spell" src={selectedArmor.spell[-10]?.img} alt={selectedArmor.spell[-10]?.name} />
+					<img id="spell" src={selectedArmor.passive[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
+					<img id="spell" src={selectedArmor.passive2[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
+				</div>
+				<div class="bootsSpells">
+					<div class="itemName">{selectedBoots.name}</div>
+					<img id="bootsSpell" src={selectedBoots.img} alt={selectedBoots.name} />
+					<img id="spell" src={selectedBoots.spell[-10]?.img} alt={selectedBoots.spell[-10]?.name} />
+					<img id="spell" src={selectedBoots.passive[-10]?.img} alt={selectedBoots.passive[-10]?.name} />
+				</div>
+			{:else}
+				<div class="weaponSpells">
+					<div class="itemName">{selectedWeapon.name}</div>
+					<img id="weaponSpell" src={selectedWeapon.img} alt={selectedWeapon.name} />
+					<img id="spell" src={selectedWeapon.Qspell[-10]?.img} alt={selectedWeapon.Qspell[-10]?.name} />
+					<img id="spell" src={selectedWeapon.Wspell[-10]?.img} alt={selectedWeapon.Wspell[-10]?.name} />
+					<img id="spell" src={selectedWeapon.Espell[0]?.img} alt={selectedWeapon.Espell[0]?.name} />
+					<img id="spell" src={selectedWeapon.Passive[-10]?.img} alt={selectedWeapon.Passive[-10]?.name} />
+				</div>
+				<div class="helmetSpells">
+					<div class="itemName">{selectedHelmet.name}</div>
+					<img id="helmetSpell" src={selectedHelmet.img} alt={selectedHelmet.name} />
+					<img id="spell" src={selectedHelmet.spell[-10]?.img} alt={selectedHelmet.spell[-10]?.name} />
+					<img id="spell" src={selectedHelmet.passive[-10]?.img} alt={selectedHelmet.passive[-10]?.name} />
+				</div>
+				<div class="armorSpells">
+					<div class="itemName">{selectedArmor.name}</div>
+					<img id="armorSpell" src={selectedArmor.img} alt={selectedArmor.name} />
+					<img id="spell" src={selectedArmor.spell[-10]?.img} alt={selectedArmor.spell[-10]?.name} />
+					<img id="spell" src={selectedArmor.passive[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
+				</div>
+				<div class="bootsSpells">
+					<div class="itemName">{selectedBoots.name}</div>
+					<img id="bootsSpell" src={selectedBoots.img} alt={selectedBoots.name} />
+					<img id="spell" src={selectedBoots.spell[-10]?.img} alt={selectedBoots.spell[-10]?.name} />
+					<img id="spell" src={selectedBoots.passive[-10]?.img} alt={selectedBoots.passive[-10]?.name} />
+				</div>
+			{/if}
 		</div>
 	</div>
 	<div class="bottom-background" />
@@ -461,7 +509,7 @@
 		width: 100%;
 		height: 33vh;
 		position: relative;
-		bottom: 6px;
+		bottom: 5px;
 	}
 
 	.spell-box {
