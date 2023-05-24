@@ -2897,39 +2897,327 @@ export let boots = [
 	//Leather Shoes
 	{
 		name: "Shoes of Tenacity",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Shoes%20of%20Tenacity.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Shoes%20of%20Tenacity.png?locale=en",
+		spell: [
+			{
+				name: "Blind Spot",
+				img: "https://render.albiononline.com/v1/spell/Blind%20Spot.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mistwalker Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mistwalker%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "After Image",
+				img: "https://render.albiononline.com/v1/spell/After%20Image.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Specter Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Specter%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Spectral Run",
+				img: "https://render.albiononline.com/v1/spell/Spectral%20Run.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Hellion Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hellion%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Mark of Sacrifice",
+				img: "https://render.albiononline.com/v1/spell/Mark%20of%20Sacrifice.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Stalker Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Stalker%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Raging Blink",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Blink.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Evasive Jump",
+				img: "https://render.albiononline.com/v1/spell/Evasive%20Jump.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Assasin Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Assassin%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Swift Cut",
+				img: "https://render.albiononline.com/v1/spell/Swift%20Cut.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Hunter Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Hunter%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Rush",
+				img: "https://wiki.albiononline.com/data/images/f/f5/RUSH.png"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Mercenary Shoes",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Shoes.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Mercenary%20Shoes.png?locale=en",
+		spell: [
+			{
+				name: "Break Free",
+				img: "https://render.albiononline.com/v1/spell/Break%20Free.png?locale=en"
+			},
+			{
+				name: "Refreshing Sprint",
+				img: "https://render.albiononline.com/v1/spell/Refreshing%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Balanced Mind",
+				img: "https://render.albiononline.com/v1/spell/Balanced%20Mind.png?locale=en"
+			},
+			{
+				name: "Swiftness",
+				img: "https://render.albiononline.com/v1/spell/Swiftness.png?locale=en"
+			},
+			{
+				name: "Quick Thinker",
+				img: "https://render.albiononline.com/v1/spell/Quick%20Thinker.png?locale=en"
+			}
+		]
 	},
 	//Plate Boots
 	{
