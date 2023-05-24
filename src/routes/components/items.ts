@@ -492,6 +492,52 @@ export let weapons = [
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
 			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Ice Crystal",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Crystal.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
 		]
 	},
 	{
@@ -624,6 +670,266 @@ export let weapons = [
 		name: "Arcane Staff",
 		onehand: true,
 		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF.png?locale=en"
+	},
+	//Priest
+	{
+		name: "Great Holly Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_HOLYSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Holy Explosion",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Explosion.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
+	//Nature Staffs
+	{
+		name: "Nature Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Circle of Life",
+				img: "https://render.albiononline.com/v1/spell/Circle%20of%20Life.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	//Hammers
+	{
+		name: "Forge Hammers",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DUALHAMMER_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Bash Knee",
+				img: "https://render.albiononline.com/v1/spell/Bash%20Knee.png?locale=en"
+			},
+			{
+				name: "Threatening Strike",
+				img: "https://render.albiononline.com/v1/spell/Threatening%20Strike.png?locale=en"
+			},
+			{
+				name: "Iron Breaker",
+				img: "https://render.albiononline.com/v1/spell/Iron%20Breaker.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Heavy Smash",
+				img: "https://render.albiononline.com/v1/spell/Heavy%20Smash.png?locale=en"
+			},
+			{
+				name: "Slowing Charge",
+				img: "https://render.albiononline.com/v1/spell/Slowing%20Charge.png?locale=en"
+			},
+			{
+				name: "Power Geyser",
+				img: "https://render.albiononline.com/v1/spell/Power%20Geyser.png?locale=en"
+			},
+			{
+				name: "Knockout",
+				img: "https://render.albiononline.com/v1/spell/Knockout.png?locale=en"
+			},
+			{
+				name: "Inertia Ring",
+				img: "https://render.albiononline.com/v1/spell/Inertia%20Ring.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Giant Steps",
+				img: "https://render.albiononline.com/v1/spell/Giant%20Steps.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	//Maces
+	{
+		name: "Heavy Mace",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_MACE.png?locale=en",
+		Qspell: [
+			{
+				name: "Defensive Slam",
+				img: "https://render.albiononline.com/v1/spell/Defensive%20Slam.png?locale=en"
+			},
+			{
+				name: "Threatening Smash",
+				img: "https://render.albiononline.com/v1/spell/Threatening%20Smash.png?locale=en"
+			},
+			{
+				name: "Sacred Ground",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Ground.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ground Shaker",
+				img: "https://render.albiononline.com/v1/spell/Ground%20Shaker.png?locale=en"
+			},
+			{
+				name: "Snare Charge",
+				img: "https://render.albiononline.com/v1/spell/Snare%20Charge.png?locale=en"
+			},
+			{
+				name: "Guard Rune",
+				img: "https://render.albiononline.com/v1/spell/Guard%20Rune.png?locale=en"
+			},
+			{
+				name: "Air Compressor",
+				img: "https://render.albiononline.com/v1/spell/Air%20Compressor.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Battle Howl",
+				img: "https://render.albiononline.com/v1/spell/Battle%20Howl.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
 	}
 ];
 
@@ -3222,31 +3528,255 @@ export let boots = [
 	//Plate Boots
 	{
 		name: "Boots of Valor",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Boots%20of%20Valor.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Boots%20of%20Valor.png?locale=en",
+		spell: [
+			{
+				name: "Premonition",
+				img: "https://render.albiononline.com/v1/spell/Premonition.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Duskweaver Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Crush Charge",
+				img: "https://render.albiononline.com/v1/spell/Crush%20Charge.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Judicator Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Elbow Smash",
+				img: "https://render.albiononline.com/v1/spell/Elbow%20Smash.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Demon Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Vengeful Sprint",
+				img: "https://render.albiononline.com/v1/spell/Vengeful%20Sprint.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Graveguard Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Battle Frenzy",
+				img: "https://render.albiononline.com/v1/spell/Battle%20Frenzy.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Royal March",
+				img: "https://render.albiononline.com/v1/spell/Royal%20March.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Guardian Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Giant",
+				img: "https://render.albiononline.com/v1/spell/Giant.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Knight Boots",
@@ -3286,7 +3816,39 @@ export let boots = [
 	},
 	{
 		name: "Soldier Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Wanderlust",
+				img: "https://render.albiononline.com/v1/spell/Wanderlust.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	}
 ];
 
