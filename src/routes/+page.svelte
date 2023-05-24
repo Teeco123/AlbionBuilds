@@ -329,7 +329,7 @@
 		</form>
 	</div>
 	<div class="items">
-		<img id="inventory" src="src\routes\images\inventory3.png" alt="inventory" />
+		<img id="inventory" src="./images/inventory3.png" alt="inventory" />
 		{#if selectedWeapon.onehand == true}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
 			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
