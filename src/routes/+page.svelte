@@ -10,7 +10,7 @@
 		Passive: { name: string; img: string }[];
 	} = {
 		name: "",
-		img: "src/routes/images/no-item.png",
+		img: "static\no-item.png",
 		Qspell: [
 			{
 				name: "",
@@ -38,11 +38,11 @@
 	};
 	let selectedOffhand: { name: string; img: string } = {
 		name: "",
-		img: "src/routes/images/no-item.png"
+		img: "static\no-item.png"
 	};
 	let selectedHelmet: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
 		name: "",
-		img: "src/routes/images/no-item.png",
+		img: "static\no-item.png",
 		spell: [
 			{
 				name: "",
@@ -58,7 +58,7 @@
 	};
 	let selectedArmor: { name: string; img: string; plate: boolean; spell: { name: string; img: string }[]; passive: { name: string; img: string }[]; passive2: { name: string; img: string }[] } = {
 		name: "",
-		img: "src/routes/images/no-item.png",
+		img: "static\no-item.png",
 		plate: false,
 		spell: [
 			{
@@ -81,7 +81,7 @@
 	};
 	let selectedBoots: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
 		name: "",
-		img: "src/routes/images/no-item.png",
+		img: "static\no-item.png",
 		spell: [
 			{
 				name: "",
@@ -97,15 +97,15 @@
 	};
 	let selectedCape: { name: string; img: string } = {
 		name: "",
-		img: "src/routes/images/no-item.png"
+		img: "static\no-item.png"
 	};
 	let selectedPotion: { name: string; img: string } = {
 		name: "",
-		img: "src/routes/images/no-item.png"
+		img: "static\no-item.png"
 	};
 	let selectedFood: { name: string; img: string } = {
 		name: "",
-		img: "src/routes/images/no-item.png"
+		img: "static\no-item.png"
 	};
 </script>
 
@@ -329,7 +329,7 @@
 		</form>
 	</div>
 	<div class="items">
-		<img id="inventory" src="./images/inventory3.png" alt="inventory" />
+		<img id="inventory" src="static\inventory.png" alt="inventory" />
 		{#if selectedWeapon.onehand == true}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
 			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
@@ -341,7 +341,7 @@
 			<img id="food" src={selectedFood.img} alt={selectedFood.name} />
 		{:else}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
-			<img id="offhand" src="src\routes\images\no-item.png" alt={selectedOffhand.name} />
+			<img id="offhand" src="static\no-item.png" alt={selectedOffhand.name} />
 			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
 			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
 			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
