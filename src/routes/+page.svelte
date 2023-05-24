@@ -329,7 +329,7 @@
 		</form>
 	</div>
 	<div class="items">
-		<img id="inventory" src="src\routes\images\inventory.png" alt="inventory" />
+		<img id="inventory" src="src\routes\images\inventory3.png" alt="inventory" />
 		{#if selectedWeapon.onehand == true}
 			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
 			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
@@ -410,7 +410,6 @@
 			{/if}
 		</div>
 	</div>
-	<div class="bottom-background" />
 </body>
 
 <style>
@@ -418,10 +417,7 @@
 	body {
 		font-family: "Roboto";
 		margin: 0;
-	}
-
-	.form {
-		background-color: #eac59e;
+		background-color: #f6f5f1;
 	}
 
 	.form label,
@@ -431,12 +427,12 @@
 	}
 
 	.items {
-		height: 398px;
-		width: 270px;
+		width: 570px;
 		display: block;
 		float: left;
-		left: 630px;
+		left: 660px;
 		position: relative;
+		background-color: #eeeeee;
 	}
 
 	.items img {
@@ -447,86 +443,82 @@
 
 	#inventory {
 		float: left;
+		height: 430px;
+		bottom: -310px;
+		position: absolute;
 	}
 
 	#weapon {
-		width: 94px;
-		position: relative;
-		bottom: 280px;
-		left: -89px;
+		width: 150px;
+		position: absolute;
+		bottom: -180px;
 	}
 
 	#offhand {
-		width: 94px;
-		position: relative;
-		bottom: 373px;
-		left: 92px;
+		width: 150px;
+		position: absolute;
+		bottom: -180px;
+		left: 300px;
 	}
 
 	#helmet {
-		width: 94px;
-		position: relative;
-		bottom: 558px;
+		width: 150px;
+		position: absolute;
+		bottom: -30px;
+		left: 150px;
 	}
 
 	#armor {
-		width: 94px;
-		position: relative;
-		bottom: 572px;
+		width: 150px;
+		position: absolute;
+		bottom: -165px;
+		left: 150px;
 	}
 
 	#boots {
-		width: 94px;
+		width: 150px;
 		position: relative;
-		bottom: 586px;
+		bottom: -300px;
+		left: -60px;
 	}
 
 	#cape {
-		width: 94px;
-		position: relative;
-		bottom: 832px;
-		left: 92px;
+		width: 150px;
+		position: absolute;
+		bottom: -50px;
+		left: 300px;
 	}
 
 	#potion {
-		width: 94px;
-		position: relative;
-		bottom: 764px;
-		left: -89px;
+		width: 150px;
+		position: absolute;
+		bottom: -315px;
 	}
 
 	#food {
-		width: 94px;
-		position: relative;
-		bottom: 858px;
-		left: 92px;
-	}
-
-	.bottom-background {
-		background-color: #c9aa8f;
-		background-repeat: repeat-x;
-		display: block;
-		width: 100%;
-		height: 33vh;
-		position: relative;
-		bottom: 5px;
+		width: 150px;
+		position: absolute;
+		bottom: -315px;
+		left: 300px;
 	}
 
 	.spell-box {
-		background-image: url("./images/gowno.png");
-		background-repeat: repeat-x;
 		display: block;
-		height: 403px;
+		height: 460px;
+		background-color: #eeeeee;
 	}
 
 	.spells {
-		background-image: url("./images/gowno.png");
-		background-repeat: repeat-x;
+		padding-left: 50px;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		background-color: #eeeeee;
 		display: inline-block;
 		height: 398px;
-		width: 330px;
+		width: 300px;
 		position: relative;
-		left: 630px;
+		left: 530px;
 	}
 
 	.spells img {
@@ -539,38 +531,59 @@
 	.weaponSpells {
 		float: left;
 		height: 94px;
-		width: 300px;
+		width: 350px;
 		padding-top: 5px;
-		padding-left: 20px;
+		padding-bottom: 6px;
+		padding-left: 10px;
+		background-color: #dededa;
+		border-radius: 10px;
+		border: #eeeeee solid;
+		background-color: #dededa;
 	}
 
 	.helmetSpells {
 		float: left;
 		height: 94px;
-		width: 300px;
+		width: 350px;
 		padding-top: 6px;
-		padding-left: 20px;
+		padding-bottom: 6px;
+		padding-left: 10px;
+		background-color: #dededa;
+		border-radius: 10px;
+		border: #eeeeee solid;
+		background-color: #eeeeee;
 	}
 
 	.armorSpells {
 		float: left;
 		height: 94px;
-		width: 300px;
+		width: 350px;
 		padding-top: 6px;
-		padding-left: 20px;
+		padding-bottom: 6px;
+		padding-left: 10px;
+		background-color: #dededa;
+		border-radius: 10px;
+		border: #eeeeee solid;
 	}
 
 	.bootsSpells {
+		border-radius: 2px;
 		float: left;
 		height: 94px;
-		width: 300px;
+		width: 350px;
 		padding-top: 5px;
-		padding-left: 20px;
+		padding-bottom: 6px;
+		padding-left: 10px;
+		background-color: #dededa;
+		border-radius: 10px;
+		border: #eeeeee solid;
+		background-color: #eeeeee;
 	}
 
 	#spell {
 		width: 50px;
 		position: relative;
-		bottom: -25px;
+		bottom: -15px;
+		margin-left: 10px;
 	}
 </style>

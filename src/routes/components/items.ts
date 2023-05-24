@@ -105,6 +105,12 @@ export let weapons = [
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
 			}
 		],
+		Espell: [
+			{
+				name: "Cataclysm",
+				img: "https://render.albiononline.com/v1/spell/Cataclysm.png?locale=en"
+			}
+		],
 		Passive: [
 			{
 				name: "Bane",
@@ -162,6 +168,12 @@ export let weapons = [
 			{
 				name: "Dark Matter",
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Haunting Screams",
+				img: "https://render.albiononline.com/v1/spell/Haunting%20Screams.png?locale=en"
 			}
 		],
 		Passive: [
@@ -223,6 +235,12 @@ export let weapons = [
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
 			}
 		],
+		Espell: [
+			{
+				name: "Enfeeble Blades",
+				img: "https://render.albiononline.com/v1/spell/Enfeeble%20Blades.png?locale=en"
+			}
+		],
 		Passive: [
 			{
 				name: "Bane",
@@ -280,6 +298,12 @@ export let weapons = [
 			{
 				name: "Dark Matter",
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Anguished Soul",
+				img: "https://render.albiononline.com/v1/spell/Anguished%20Soul.png?locale=en"
 			}
 		],
 		Passive: [
@@ -341,6 +365,12 @@ export let weapons = [
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
 			}
 		],
+		Espell: [
+			{
+				name: "Area of Decay",
+				img: "https://render.albiononline.com/v1/spell/Area%20of%20Decay.png?locale=en"
+			}
+		],
 		Passive: [
 			{
 				name: "Bane",
@@ -398,6 +428,12 @@ export let weapons = [
 			{
 				name: "Dark Matter",
 				img: "https://render.albiononline.com/v1/spell/Dark%20Matter.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Death Curse",
+				img: "https://render.albiononline.com/v1/spell/Death%20Curse.png?locale=en"
 			}
 		],
 		Passive: [
@@ -2146,47 +2182,389 @@ export let armors = [
 	{
 		name: "Armor of Valor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Armor%20of%20Valor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Requite",
+				img: "https://render.albiononline.com/v1/spell/Requite.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Duskweaver Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Duskweaver%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Mythical Web",
+				img: "https://render.albiononline.com/v1/spell/Mythical%20Web.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Judicator Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Judicator%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Force Shield",
+				img: "https://render.albiononline.com/v1/spell/Force%20Shield.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Demon Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Demon%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Protection of the Fiends",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20the%20Fiends.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Graveguard Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Graveguard%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Soul Chain",
+				img: "https://render.albiononline.com/v1/spell/Soul%20Chain.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Royal Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Royal%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Energy Source",
+				img: "https://render.albiononline.com/v1/spell/Energy%20Source.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Guardian Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Enfeeble Aura",
+				img: "https://render.albiononline.com/v1/spell/Enfeeble%20Aura.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Knight Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Knight%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Wind Wall",
+				img: "https://render.albiononline.com/v1/spell/Wind%20Wall.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Soldier Armor",
 		img: "https://render.albiononline.com/v1/item/Elder's%20Soldier%20Armor.png?locale=en",
-		plate: true
+		plate: true,
+		spell: [
+			{
+				name: "Fury",
+				img: "https://render.albiononline.com/v1/spell/Fury.png?locale=en"
+			},
+			{
+				name: "Taunt",
+				img: "https://render.albiononline.com/v1/spell/Taunt.png?locale=en"
+			},
+			{
+				name: "Mend Wounds",
+				img: "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		],
+		passive2: [
+			{
+				name: "Spirit Crush",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Crush.png?locale=en"
+			},
+			{
+				name: "Protective Instinct",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Instinct.png?locale=en"
+			}
+		]
 	}
 ];
 
@@ -2584,7 +2962,39 @@ export let boots = [
 	},
 	{
 		name: "Knight Boots",
-		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/Elder's%20Guardian%20Boots.png?locale=en",
+		spell: [
+			{
+				name: "Shield Charge",
+				img: "https://render.albiononline.com/v1/spell/Shield%20Charge.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Sprint",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Sprint.png?locale=en"
+			},
+			{
+				name: "Dodge",
+				img: "https://render.albiononline.com/v1/spell/Dodge.png?locale=en"
+			}
+		],
+		passive: [
+			{
+				name: "Courier",
+				img: "https://render.albiononline.com/v1/spell/Courier.png?locale=en"
+			},
+			{
+				name: "Toughness",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Authority",
+				img: "https://render.albiononline.com/v1/spell/Authority.png?locale=en"
+			},
+			{
+				name: "Tenacity",
+				img: "https://render.albiononline.com/v1/spell/Tenacity.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Soldier Boots",
