@@ -522,10 +522,9 @@
 	}
 
 	.spells img {
-		width: 74px;
+		width: 80px;
 		float: left;
 		position: relative;
-		bottom: -5px;
 	}
 
 	.weaponSpells {
@@ -581,7 +580,7 @@
 	}
 
 	#spell {
-		width: 50px;
+		width: 55px;
 		position: relative;
 		bottom: -15px;
 		margin-left: 10px;
