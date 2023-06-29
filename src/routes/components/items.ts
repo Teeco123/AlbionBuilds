@@ -473,6 +473,52 @@ export let weapons = [
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
 			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Freezing Wind",
+				img: "https://render.albiononline.com/v1/spell/Freezing%20Wind.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
 		]
 	},
 	{
@@ -491,6 +537,52 @@ export let weapons = [
 			{
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Hall",
+				img: "https://render.albiononline.com/v1/spell/Hail.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
 			}
 		]
 	},
@@ -511,6 +603,52 @@ export let weapons = [
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
 			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Ice Storm",
+				img: "https://render.albiononline.com/v1/spell/Ice%20Storm.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
 		]
 	},
 	{
@@ -530,6 +668,52 @@ export let weapons = [
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
 			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Avalanche",
+				img: "https://render.albiononline.com/v1/spell/Avalanche.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
 		]
 	},
 	{
@@ -548,6 +732,52 @@ export let weapons = [
 			{
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Frozen Hell",
+				img: "https://render.albiononline.com/v1/spell/Frozen%20Hell.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
 			}
 		]
 	},
@@ -633,14 +863,119 @@ export let weapons = [
 				name: "Frozen Surge",
 				img: "https://render.albiononline.com/v1/spell/Frozen%20Surge.png?locale=en"
 			}
+		],
+		Wspell: [
+			{
+				name: "Frost Bomb",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Bomb.png?locale=en"
+			},
+			{
+				name: "Frost Beam",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Beam.png?locale=en"
+			},
+			{
+				name: "Frost Nova",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Nova.png?locale=en"
+			},
+			{
+				name: "Frost Lance",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Lance.png?locale=en"
+			},
+			{
+				name: "Glacial Obelisk",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Obelisk.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Glacial Prison",
+				img: "https://render.albiononline.com/v1/spell/Glacial%20Prison.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Frost",
+				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
 		]
 	},
 	//Arcanist
-
 	{
 		name: "Arcane Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Arcane Orb",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Orb.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Great Arcane Staff",
@@ -710,29 +1045,394 @@ export let weapons = [
 	{
 		name: "Enigmatic Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICSTAFF.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Protective Beam",
+				img: "https://render.albiononline.com/v1/spell/Protective%20Beam.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Witchwork Staff",
 		onehand: true,
-		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF_UNDEAD.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_ARCANESTAFF_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Black Hole",
+				img: "https://render.albiononline.com/v1/spell/Black%20Hole.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Occult Staff",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANESTAFF_HELL.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANESTAFF_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Time Corridor",
+				img: "https://render.albiononline.com/v1/spell/Time%20Corridor.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Malevolent Locus",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICORB_MORGANA.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ENIGMATICORB_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "The Void",
+				img: "https://render.albiononline.com/v1/spell/The%20Void.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	{
 		name: "Evensong",
 		onehand: false,
-		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANE_RINGPAIR_AVALON.png?locale=en"
+		img: "https://render.albiononline.com/v1/item/T8_2H_ARCANE_RINGPAIR_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Chain Missile",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Missile.png?locale=en"
+			},
+			{
+				name: "Arcane Protection",
+				img: "https://render.albiononline.com/v1/spell/Arcane%20Protection.png?locale=en"
+			},
+			{
+				name: "Magic Shock",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Shock.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Enigma Blade",
+				img: "https://render.albiononline.com/v1/spell/Enigma%20Blade.png?locale=en"
+			},
+			{
+				name: "Motivating Cleanse",
+				img: "https://render.albiononline.com/v1/spell/Motivating%20Cleanse.png?locale=en"
+			},
+			{
+				name: "Frazzle",
+				img: "https://render.albiononline.com/v1/spell/Frazzle.png?locale=en"
+			},
+			{
+				name: "Emowering Beam",
+				img: "https://render.albiononline.com/v1/spell/Empowering%20Beam.png?locale=en"
+			},
+			{
+				name: "Mimic",
+				img: "https://render.albiononline.com/v1/spell/Mimic.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Dark Sphere",
+				img: "https://render.albiononline.com/v1/spell/Dark%20Sphere.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Lingering Power",
+				img: "https://render.albiononline.com/v1/spell/Lingering%20Power.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hush",
+				img: "https://render.albiononline.com/v1/spell/Hush.png?locale=en"
+			}
+		]
 	},
 	//Priest
+	{
+		name: "Holly Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_HOLYSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Desperate Prayer",
+				img: "https://render.albiononline.com/v1/spell/Desperate%20Prayer.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
 	{
 		name: "Great Holly Staff",
 		onehand: false,
@@ -777,6 +1477,266 @@ export let weapons = [
 			{
 				name: "Holy Explosion",
 				img: "https://render.albiononline.com/v1/spell/Holy%20Explosion.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Divine Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DIVINESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Divine Protection",
+				img: "https://render.albiononline.com/v1/spell/Divine%20Protection.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Lifetouch Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_HOLYSTAFF_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Holy Touch",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Touch.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Fallen Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_HOLYSTAFF_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Salvation",
+				img: "https://render.albiononline.com/v1/spell/Salvation.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Magic Force",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Force.png?locale=en"
+			},
+			{
+				name: "Ascended",
+				img: "https://render.albiononline.com/v1/spell/Ascended.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Redemption Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_HOLYSTAFF_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Generous Heal",
+				img: "https://render.albiononline.com/v1/spell/Generous%20Heal.png?locale=en"
+			},
+			{
+				name: "Smite",
+				img: "https://render.albiononline.com/v1/spell/Smite.png?locale=en"
+			},
+			{
+				name: "Holy Flash",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Flash.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Sacred Pulse",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Pulse.png?locale=en"
+			},
+			{
+				name: "Holy Beam",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Beam.png?locale=en"
+			},
+			{
+				name: "Holy Blessing",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Blessing.png?locale=en"
+			},
+			{
+				name: "Holy Orb",
+				img: "https://render.albiononline.com/v1/spell/Holy%20Orb.png?locale=en"
+			},
+			{
+				name: "Reawaken",
+				img: "https://render.albiononline.com/v1/spell/Reawaken.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Celestial Sphere",
+				img: "https://render.albiononline.com/v1/spell/Celestial%20Sphere.png?locale=en"
 			}
 		],
 		Passive: [
@@ -863,6 +1823,463 @@ export let weapons = [
 			}
 		]
 	},
+	//Fire Staffs
+	{
+		name: "Fire Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FIRESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Pyroblast",
+				img: "https://render.albiononline.com/v1/spell/Pyroblast.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Great Fire Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_FIRESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Flame Pillar",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Pillar.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Infernal Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_INFERNOSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Combustion",
+				img: "https://render.albiononline.com/v1/spell/Combustion.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Wildfire Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_FIRESTAFF_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Magma Sphere",
+				img: "https://render.albiononline.com/v1/spell/Magma%20Sphere.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Brimstone Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_FIRESTAFF_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Meteor",
+				img: "https://render.albiononline.com/v1/spell/Meteor.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Blazing Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_INFERNOSTAFF_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Flame Tornado",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Tornado.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Dawnsong",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_FIRE_RINGPAIR_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Fire Bolt",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Bolt.png?locale=en"
+			},
+			{
+				name: "Burning Field",
+				img: "https://render.albiononline.com/v1/spell/Burning%20Field.png?locale=en"
+			},
+			{
+				name: "Searing Flame",
+				img: "https://render.albiononline.com/v1/spell/Searing%20Flame.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Flame Blast",
+				img: "https://render.albiononline.com/v1/spell/Flame%20Blast.png?locale=en"
+			},
+			{
+				name: "Wall of flames",
+				img: "https://render.albiononline.com/v1/spell/Wall%20of%20Flames.png?locale=en"
+			},
+			{
+				name: "Raging Flaer",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Flare.png?locale=en"
+			},
+			{
+				name: "Fire Wave",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Wave.png?locale=en"
+			},
+			{
+				name: "Fire Artillery",
+				img: "https://render.albiononline.com/v1/spell/Fire%20Artillery.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Flaming Phoenix",
+				img: "https://render.albiononline.com/v1/spell/Flaming%20Phoenix.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Burn",
+				img: "https://render.albiononline.com/v1/spell/Burn.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Aggressive Caster",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Caster.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	//Quarterstaffs
 	//Nature Staffs
 	{
 		name: "Nature Staff",
@@ -1255,6 +2672,136 @@ export let weapons = [
 		]
 	},
 	//Axes
+	{
+		name: "Halberd",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_HALBERD.png?locale=en",
+		Qspell: [
+			{
+				name: "Rending Strike",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Strike.png?locale=en"
+			},
+			{
+				name: "Rending Spin",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Spin.png?locale=en"
+			},
+			{
+				name: "Rending Rage",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Rage.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Deadly Chop",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Chop.png?locale=en"
+			},
+			{
+				name: "Adrenaline Boost",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Boost.png?locale=en"
+			},
+			{
+				name: "Battle Rush",
+				img: "https://render.albiononline.com/v1/spell/Battle%20Rush.png?locale=en"
+			},
+			{
+				name: "Internal Bleeding",
+				img: "https://render.albiononline.com/v1/spell/Internal%20Bleeding.png?locale=en"
+			},
+			{
+				name: "Raging Blades",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Blades.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Tear Apart",
+				img: "https://render.albiononline.com/v1/spell/Tear%20Apart.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Increased Defense",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Agressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Carrioncaller",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_HALBERD_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Rending Strike",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Strike.png?locale=en"
+			},
+			{
+				name: "Rending Spin",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Spin.png?locale=en"
+			},
+			{
+				name: "Rending Rage",
+				img: "https://render.albiononline.com/v1/spell/Rending%20Rage.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Deadly Chop",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Chop.png?locale=en"
+			},
+			{
+				name: "Adrenaline Boost",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Boost.png?locale=en"
+			},
+			{
+				name: "Battle Rush",
+				img: "https://render.albiononline.com/v1/spell/Battle%20Rush.png?locale=en"
+			},
+			{
+				name: "Internal Bleeding",
+				img: "https://render.albiononline.com/v1/spell/Internal%20Bleeding.png?locale=en"
+			},
+			{
+				name: "Raging Blades",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Blades.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Morgana Raven",
+				img: "https://render.albiononline.com/v1/spell/Morgana%20Raven.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Increased Defense",
+				img: "https://render.albiononline.com/v1/spell/Toughness.png?locale=en"
+			},
+			{
+				name: "Agressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
 	{
 		name: "Realmbreaker",
 		onehand: false,
