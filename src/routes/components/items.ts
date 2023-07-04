@@ -1,5 +1,5 @@
 export let weapons = [
-	//Cursed Staffs
+	//Cursed Staffs ✅
 	{
 		name: "Cursed Staff",
 		onehand: true,
@@ -455,7 +455,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Frost Staffs
+	//Frost Staffs ✅
 	{
 		name: "Frost Staff",
 		onehand: true,
@@ -911,7 +911,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Arcanist
+	//Arcanist ✅
 	{
 		name: "Arcane Staff",
 		onehand: true,
@@ -1367,7 +1367,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Priest
+	//Priest ✅
 	{
 		name: "Holly Staff",
 		onehand: true,
@@ -1823,7 +1823,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Fire Staffs
+	//Fire Staffs ✅
 	{
 		name: "Fire Staff",
 		onehand: true,
@@ -2280,6 +2280,71 @@ export let weapons = [
 		]
 	},
 	//Quarterstaffs
+	{
+		name: "Quarterstaff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_QUARTERSTAFF",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Vault Leap",
+				img: "https://render.albiononline.com/v1/spell/Vault%20Leap.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
 	//Nature Staffs
 	{
 		name: "Nature Staff",
