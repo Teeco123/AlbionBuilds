@@ -2736,6 +2736,67 @@ export let weapons = [
 			}
 		]
 	},
+	{
+		name: "Bedrock Mace",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/Elder's%20Bedrock%20Mace.png?locale=en",
+		Qspell: [
+			{
+				name: "Defensive Slam",
+				img: "https://render.albiononline.com/v1/spell/Defensive%20Slam.png?locale=en"
+			},
+			{
+				name: "Threatening Smash",
+				img: "https://render.albiononline.com/v1/spell/Threatening%20Smash.png?locale=en"
+			},
+			{
+				name: "Sacred Ground",
+				img: "https://render.albiononline.com/v1/spell/Sacred%20Ground.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ground Shaker",
+				img: "https://render.albiononline.com/v1/spell/Ground%20Shaker.png?locale=en"
+			},
+			{
+				name: "Snare Charge",
+				img: "https://render.albiononline.com/v1/spell/Snare%20Charge.png?locale=en"
+			},
+			{
+				name: "Guard Rune",
+				img: "https://render.albiononline.com/v1/spell/Guard%20Rune.png?locale=en"
+			},
+			{
+				name: "Air Compressor",
+				img: "https://render.albiononline.com/v1/spell/Air%20Compressor.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Force of Nature",
+				img: "https://render.albiononline.com/v1/spell/Force%20of%20Nature.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
 	//Axes
 	{
 		name: "Halberd",
