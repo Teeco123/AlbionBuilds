@@ -2544,7 +2544,7 @@ export let weapons = [
 		]
 	},
 	{
-		name: "Ava Gloves",
+		name: "Fists of Avalon",
 		onehand: false,
 		img: "https://render.albiononline.com/v1/item/T8_2H_KNUCKLES_AVALON.png?locale=en",
 		Qspell: [
