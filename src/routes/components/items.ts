@@ -2543,6 +2543,71 @@ export let weapons = [
 			}
 		]
 	},
+	{
+		name: "Ava Gloves",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_KNUCKLES_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Create Opening",
+				img: "https://render.albiononline.com/v1/spell/Create%20Opening.png?locale=en"
+			},
+			{
+				name: "Dragon Leap",
+				img: "https://render.albiononline.com/v1/spell/Dragon%20Leap.png?locale=en"
+			},
+			{
+				name: "Fleet Footwork",
+				img: "https://render.albiononline.com/v1/spell/Fleet%20Footwork.png?locale=en"
+			},
+			{
+				name: "Shockwave",
+				img: "https://render.albiononline.com/v1/spell/Shockwave.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Triple Kick",
+				img: "https://render.albiononline.com/v1/spell/Triple%20Kick.png?locale=en"
+			},
+			{
+				name: "Backhand Strike",
+				img: "https://render.albiononline.com/v1/spell/Backhand%20Strike.png?locale=en"
+			},
+			{
+				name: "Counter",
+				img: "https://render.albiononline.com/v1/spell/Counter.png?locale=en"
+			},
+			{
+				name: "Devastating Combo",
+				img: "https://render.albiononline.com/v1/spell/Devastating%20Combo.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Purifying Combination",
+				img: "https://render.albiononline.com/v1/spell/Purifying%20Combination.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Fatal Fury",
+				img: "https://render.albiononline.com/v1/spell/Fatal%20Fury.png?locale=en"
+			},
+			{
+				name: "Rage",
+				img: "https://render.albiononline.com/v1/spell/Rage.png?locale=en"
+			},
+			{
+				name: "Rushdown",
+				img: "https://render.albiononline.com/v1/spell/Rushdown.png?locale=en"
+			},
+			{
+				name: "Hard to Catch",
+				img: "https://render.albiononline.com/v1/spell/Hard%20to%20Catch.png?locale=en"
+			}
+		]
+	},
 	//Hammers
 	{
 		name: "Polehammer",
