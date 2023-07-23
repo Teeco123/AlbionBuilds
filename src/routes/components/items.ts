@@ -2279,7 +2279,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Quarterstaffs
+	//Quarterstaffs ✅
 	{
 		name: "Quarterstaff",
 		onehand: false,
@@ -2342,6 +2342,852 @@ export let weapons = [
 			{
 				name: "Dreadladen Fighting",
 				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Iron-clad Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_IRONCLADEDSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Hurricane",
+				img: "https://render.albiononline.com/v1/spell/Hurricane.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Double Bladed Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DOUBLEBLADEDSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Soaring Swipe",
+				img: "https://render.albiononline.com/v1/spell/Soaring%20Swipe.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Black Monk Stave",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_COMBATSTAFF_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Fatal Blade",
+				img: "https://render.albiononline.com/v1/spell/Fatal%20Blade.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Soulscythe",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_TWINSCYTHE_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Tornado",
+				img: "https://render.albiononline.com/v1/spell/Tornado.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Staff of Balance",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_ROCKSTAFF_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Mystic Rocks",
+				img: "https://render.albiononline.com/v1/spell/Mystic%20Rocks.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Grailseeker",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_QUARTERSTAFF_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Concussive Combo",
+				img: "https://render.albiononline.com/v1/spell/Concussive%20Combo.png?locale=en"
+			},
+			{
+				name: "Whirling Strikes",
+				img: "https://render.albiononline.com/v1/spell/Whirling%20Strikes.png?locale=en"
+			},
+			{
+				name: "Cartwheel",
+				img: "https://render.albiononline.com/v1/spell/Cartwheel.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Gale Dance",
+				img: "https://render.albiononline.com/v1/spell/Gale%20Dance.png?locale=en"
+			},
+			{
+				name: "Stun Run",
+				img: "https://render.albiononline.com/v1/spell/Stun%20Run.png?locale=en"
+			},
+			{
+				name: "Forceful Swing",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Swing.png?locale=en"
+			},
+			{
+				name: "Rising Blow",
+				img: "https://render.albiononline.com/v1/spell/Rising%20Blow.png?locale=en"
+			},
+			{
+				name: "Separator",
+				img: "https://render.albiononline.com/v1/spell/Separator.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Soul Shaker",
+				img: "https://render.albiononline.com/v1/spell/Soul%20Shaker.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Stunning Strike",
+				img: "https://render.albiononline.com/v1/spell/Stunning%20Strike.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Dreadladen Fighting",
+				img: "https://render.albiononline.com/v1/spell/Dreadladen%20Fighting.png?locale=en"
+			}
+		]
+	},
+	//Daggers ✅
+	{
+		name: "Dagger",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_DAGGER.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Bloodthirsty Blade",
+				img: "https://render.albiononline.com/v1/spell/Bloodthirsty%20Blade.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Dagger Pair",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DAGGERPAIR.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Slit Throat",
+				img: "https://render.albiononline.com/v1/spell/Slit%20Throat.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Claws",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CLAWPAIR.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Disembowel",
+				img: "https://render.albiononline.com/v1/spell/Disembowel.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Bloodletter",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_RAPIER_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Lunging Stabs",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Stabs.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Demonfang",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_DAGGER_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Blood Ritual",
+				img: "https://render.albiononline.com/v1/spell/Blood%20Ritual.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Deathgivers",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DUALSICKLE_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Ghost Strike",
+				img: "https://render.albiononline.com/v1/spell/Ghost%20Strike.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Bridled Fury",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DAGGER_KATAR_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Sunder Armor",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Armor.png?locale=en"
+			},
+			{
+				name: "Deadly Swipe",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Swipe.png?locale=en"
+			},
+			{
+				name: "Assasin Spirit",
+				img: "https://render.albiononline.com/v1/spell/Assassin%20Spirit.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Throwing Blades",
+				img: "https://render.albiononline.com/v1/spell/Throwing%20Blades.png?locale=en"
+			},
+			{
+				name: "Dash",
+				img: "https://render.albiononline.com/v1/spell/Dash.png?locale=en"
+			},
+			{
+				name: "Forbidden Stab",
+				img: "https://render.albiononline.com/v1/spell/Forbidden%20Stab.png?locale=en"
+			},
+			{
+				name: "Shadow Edge",
+				img: "https://render.albiononline.com/v1/spell/Shadow%20Edge.png?locale=en"
+			},
+			{
+				name: "Chain Slash",
+				img: "https://render.albiononline.com/v1/spell/Chain%20Slash.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Merciless Finish",
+				img: "https://render.albiononline.com/v1/spell/Merciless%20Finish.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
 			}
 		]
 	},
