@@ -3191,7 +3191,7 @@ export let weapons = [
 			}
 		]
 	},
-	//Nature Staffs
+	//Nature Staffs ✅
 	{
 		name: "Nature Staff",
 		onehand: true,
@@ -3240,12 +3240,12 @@ export let weapons = [
 		],
 		Passive: [
 			{
-				name: "Frost",
-				img: "https://render.albiononline.com/v1/spell/Frost.png?locale=en"
-			},
-			{
 				name: "Adrenaline Driven Charity",
 				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
 			},
 			{
 				name: "Calmness",
@@ -3257,7 +3257,657 @@ export let weapons = [
 			}
 		]
 	},
-	//Spears
+	{
+		name: "Great Nature Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_NATURESTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Living Armor",
+				img: "https://render.albiononline.com/v1/spell/Living%20Armor.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Wild Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_WILDSTAFF.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Well of Life",
+				img: "https://render.albiononline.com/v1/spell/Well%20of%20Life.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Druidic Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Spiritual Seed",
+				img: "https://render.albiononline.com/v1/spell/Spiritual%20Seed.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Blight Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_NATURESTAFF_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Elevated Nature",
+				img: "https://render.albiononline.com/v1/spell/Elevated%20Nature.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Rampant Staff",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_NATURESTAFF_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Spirit Animal",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Animal.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Ironroot Staff",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_NATURESTAFF_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Rejuvenation",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenation.png?locale=en"
+			},
+			{
+				name: "Thorn Growth",
+				img: "https://render.albiononline.com/v1/spell/Thorn%20Growth.png?locale=en"
+			},
+			{
+				name: "Rejuvanating Flower",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Flower.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Brambleseed",
+				img: "https://render.albiononline.com/v1/spell/Brambleseed.png?locale=en"
+			},
+			{
+				name: "Revitalize",
+				img: "https://render.albiononline.com/v1/spell/Revitalize.png?locale=en"
+			},
+			{
+				name: "Protection of Nature",
+				img: "https://render.albiononline.com/v1/spell/Protection%20of%20Nature.png?locale=en"
+			},
+			{
+				name: "Cleanse Heal",
+				img: "https://render.albiononline.com/v1/spell/Cleanse%20Heal.png?locale=en"
+			},
+			{
+				name: "Rejuvenating Breeze",
+				img: "https://render.albiononline.com/v1/spell/Rejuvenating%20Breeze.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Soul Link",
+				img: "https://render.albiononline.com/v1/spell/Soul%20Link.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Adrenaline Driven Charity",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Calmness",
+				img: "https://render.albiononline.com/v1/spell/Calmness.png?locale=en"
+			},
+			{
+				name: "Hit and Run",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	//Spears ✅
+	{
+		name: "Spear",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_SPEAR.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Reckless Charge",
+				img: "https://render.albiononline.com/v1/spell/Reckless%20Charge.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Pike",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_SPEAR.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Rooting Smash",
+				img: "https://render.albiononline.com/v1/spell/Rooting%20Smash.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Glaive",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_GLAIVE.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Corrupting Steel",
+				img: "https://render.albiononline.com/v1/spell/Fling.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Heron Spear",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_SPEAR_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Spear Throw",
+				img: "https://render.albiononline.com/v1/spell/Spear%20Throw.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
 	{
 		name: "Spirithunter",
 		onehand: false,
@@ -3302,6 +3952,136 @@ export let weapons = [
 			{
 				name: "Corrupting Steel",
 				img: "https://render.albiononline.com/v1/spell/Corrupting%20Steel.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Trinity Spear",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_TRIDENT_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Spectral Trident",
+				img: "https://render.albiononline.com/v1/spell/Spectral%20Trident.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Life Leech",
+				img: "https://render.albiononline.com/v1/spell/Adrenaline%20Driven%20Charity.png?locale=en"
+			},
+			{
+				name: "Aggressive Rush",
+				img: "https://render.albiononline.com/v1/spell/Aggressive%20Rush.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Daybreaker",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_SPEAR_LANCE_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Lunging Strike",
+				img: "https://render.albiononline.com/v1/spell/Lunging%20Strike.png?locale=en"
+			},
+			{
+				name: "Spirit Spear",
+				img: "https://render.albiononline.com/v1/spell/Spirit%20Spear.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Forest of Spears",
+				img: "https://render.albiononline.com/v1/spell/Forest%20of%20Spears.png?locale=en"
+			},
+			{
+				name: "Inner Focus",
+				img: "https://render.albiononline.com/v1/spell/Inner%20Focus.png?locale=en"
+			},
+			{
+				name: "Cripple",
+				img: "https://render.albiononline.com/v1/spell/Cripple.png?locale=en"
+			},
+			{
+				name: "Deflecting Spin",
+				img: "https://render.albiononline.com/v1/spell/Deflecting%20Spin.png?locale=en"
+			},
+			{
+				name: "Impaler",
+				img: "https://render.albiononline.com/v1/spell/Impaler.png?locale=en"
+			},
+			{
+				name: "Harpoon",
+				img: "https://render.albiononline.com/v1/spell/Harpoon.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Breakthrough",
+				img: "https://render.albiononline.com/v1/spell/Breakthrough.png?locale=en"
 			}
 		],
 		Passive: [
