@@ -4103,6 +4103,834 @@ export let weapons = [
 			}
 		]
 	},
+	//Bows ✅
+	{
+		name: "Bow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_BOW.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Enchanted Quiver",
+				img: "https://render.albiononline.com/v1/spell/Enchanted%20Quiver.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Warbow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_WARBOW.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Magic arrow",
+				img: "https://render.albiononline.com/v1/spell/Magic%20Arrow.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Longbow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_LONGBOW.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Rain of Arrows",
+				img: "https://render.albiononline.com/v1/spell/Rain%20of%20Arrows.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Whispering Bow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_LONGBOW_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Undead Arrows",
+				img: "https://render.albiononline.com/v1/spell/Undead%20Arrows.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Wailing Bow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_BOW_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Demon Arrow",
+				img: "https://render.albiononline.com/v1/spell/Demon%20Arrow.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Bow of Badon",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_BOW_KEEPER.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Raging Storm",
+				img: "https://render.albiononline.com/v1/spell/Raging%20Storm.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Mistpiercer",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_BOW_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Multishot",
+				img: "https://render.albiononline.com/v1/spell/Multishot.png?locale=en"
+			},
+			{
+				name: "Deadly Shot",
+				img: "https://render.albiononline.com/v1/spell/Deadly%20Shot.png?locale=en"
+			},
+			{
+				name: "Poisoned Arrow",
+				img: "https://render.albiononline.com/v1/spell/Poisoned%20Arrow.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Ray of Light",
+				img: "https://render.albiononline.com/v1/spell/Ray%20of%20Light.png?locale=en"
+			},
+			{
+				name: "Frost Shot",
+				img: "https://render.albiononline.com/v1/spell/Frost%20Shot.png?locale=en"
+			},
+			{
+				name: "Speed Shot",
+				img: "https://render.albiononline.com/v1/spell/Speed%20Shot.png?locale=en"
+			},
+			{
+				name: "Explosive Shot",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Arrows.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Lucent Hawk",
+				img: "https://render.albiononline.com/v1/spell/Lucent%20Hawk.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Slow Poison",
+				img: "https://render.albiononline.com/v1/spell/Slow%20Poison.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Piercing Arrows",
+				img: "https://render.albiononline.com/v1/spell/Piercing%20Arrows.png?locale=en"
+			},
+			{
+				name: "Attack Speed",
+				img: "https://render.albiononline.com/v1/spell/Attack%20Speed.png?locale=en"
+			}
+		]
+	},
+	//Crossbows ✅
+	{
+		name: "Crossbow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CROSSBOW.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Snipe Shot",
+				img: "https://render.albiononline.com/v1/spell/Snipe%20Shot.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Heavy Crossbow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CROSSBOWLARGE.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Sweeping Bolt",
+				img: "https://render.albiononline.com/v1/spell/Sweeping%20Bolt.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Light Crossbow",
+		onehand: true,
+		img: "https://render.albiononline.com/v1/item/T8_MAIN_1HCROSSBOW.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Exploding Shot",
+				img: "https://render.albiononline.com/v1/spell/Exploding%20Shot.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Weeping Repeater",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_REPEATINGCROSSBOW_UNDEAD.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Explosive Mine",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Mine.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Boltcasters",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_DUALCROSSBOW_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Deathward Climax",
+				img: "https://render.albiononline.com/v1/spell/Deathward%20Climax.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Siegebow",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CROSSBOWLARGE_MORGANA.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Vicious Barrage",
+				img: "https://render.albiononline.com/v1/spell/Vicious%20Barrage.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Energy Shaper",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CROSSBOW_CANNON_AVALON.png?locale=en",
+		Qspell: [
+			{
+				name: "Auto Fire",
+				img: "https://render.albiononline.com/v1/spell/Auto%20Fire.png?locale=en"
+			},
+			{
+				name: "Explosive Bolt",
+				img: "https://render.albiononline.com/v1/spell/Explosive%20Bolt.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Knockback Shot",
+				img: "https://render.albiononline.com/v1/spell/Knockback%20Shot.png?locale=en"
+			},
+			{
+				name: "Sunder Shot",
+				img: "https://render.albiononline.com/v1/spell/Sunder%20Shot.png?locale=en"
+			},
+			{
+				name: "Caltrops",
+				img: "https://render.albiononline.com/v1/spell/Caltrops.png?locale=en"
+			},
+			{
+				name: "Noise Eraser",
+				img: "https://render.albiononline.com/v1/spell/Noise%20Eraser.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Divine Engine",
+				img: "https://render.albiononline.com/v1/spell/Divine%20Engine.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Forceful Bolts",
+				img: "https://render.albiononline.com/v1/spell/Forceful%20Bolts.png?locale=en"
+			},
+			{
+				name: "Well-Preapared",
+				img: "https://render.albiononline.com/v1/spell/Well-Prepared.png?locale=en"
+			},
+			{
+				name: "Energetic",
+				img: "https://render.albiononline.com/v1/spell/Energetic.png?locale=en"
+			},
+			{
+				name: "Furious",
+				img: "https://render.albiononline.com/v1/spell/Furious.png?locale=en"
+			}
+		]
+	},
 	//Gloves
 	{
 		name: "Spiked Gauntlets",
@@ -4686,7 +5514,7 @@ export let weapons = [
 	},
 	//Swords
 	{
-		name: "Clarent",
+		name: "Clarent Blade",
 		onehand: true,
 		img: "https://render.albiononline.com/v1/item/T8_MAIN_SCIMITAR_MORGANA.png?locale=en",
 		Qspell: [
@@ -4729,6 +5557,71 @@ export let weapons = [
 			{
 				name: "Crescent Slash",
 				img: "https://render.albiononline.com/v1/spell/Crescent%20Slash.png?locale=en"
+			}
+		],
+		Passive: [
+			{
+				name: "Deep Cuts",
+				img: "https://render.albiononline.com/v1/spell/Deep%20Cuts.png?locale=en"
+			},
+			{
+				name: "Weakening",
+				img: "https://render.albiononline.com/v1/spell/Weakening.png?locale=en"
+			},
+			{
+				name: "Heroic Fighting",
+				img: "https://render.albiononline.com/v1/spell/Heroic%20Fighting.png?locale=en"
+			},
+			{
+				name: "Increased Defense",
+				img: "https://render.albiononline.com/v1/spell/Increased%20Defense.png?locale=en"
+			}
+		]
+	},
+	{
+		name: "Carving Sword",
+		onehand: false,
+		img: "https://render.albiononline.com/v1/item/T8_2H_CLEAVER_HELL.png?locale=en",
+		Qspell: [
+			{
+				name: "Heroic Strike",
+				img: "https://render.albiononline.com/v1/spell/Heroic%20Strike.png?locale=en"
+			},
+			{
+				name: "Heroic Cleave",
+				img: "https://render.albiononline.com/v1/spell/Heroic%20Cleave.png?locale=en"
+			}
+		],
+		Wspell: [
+			{
+				name: "Blade Cyclone",
+				img: "https://render.albiononline.com/v1/spell/Blade%20Cyclone.png?locale=en"
+			},
+			{
+				name: "Interrupt",
+				img: "https://render.albiononline.com/v1/spell/Interrupt.png?locale=en"
+			},
+			{
+				name: "Splitting Slash",
+				img: "https://render.albiononline.com/v1/spell/Splitting%20Slash.png?locale=en"
+			},
+			{
+				name: "Hamstring",
+				img: "https://render.albiononline.com/v1/spell/Hamstring.png?locale=en"
+			},
+			{
+				name: "Parry Strike",
+				img: "https://render.albiononline.com/v1/spell/Parry%20Strike.png?locale=en"
+			},
+			{
+				name: "Iron WIll",
+				img: "https://render.albiononline.com/v1/spell/Iron%20Will.png?locale=en"
+			}
+		],
+		Espell: [
+			{
+				name: "Fearless Strike",
+				img: "https://render.albiononline.com/v1/spell/Fearless%20Strike.png?locale=en"
 			}
 		],
 		Passive: [
