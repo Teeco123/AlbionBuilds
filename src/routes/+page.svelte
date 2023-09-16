@@ -3,6 +3,7 @@
 
 	let selectedWeapon: {
 		name: string;
+		onehand: boolean;
 		img: string;
 		Qspell: { name: string; img: string }[];
 		Wspell: { name: string; img: string }[];
@@ -10,6 +11,7 @@
 		Passive: { name: string; img: string }[];
 	} = {
 		name: "",
+		onehand: true,
 		img: "images/no-item.png",
 		Qspell: [
 			{
