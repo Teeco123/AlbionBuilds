@@ -16,10 +16,10 @@ export const actions = {
 				path: "/",
 				httpOnly: true,
 				secure: true,
-				maxAge: 60 * 60 * 24 * 7
+				maxAge: 60 * 60 * 24 * 2
 			});
-			console.log(cookies.get("session"));
-			throw redirect(303, "/profile");
+
+			throw redirect(303, `/profile/${login}`);
 		} else if (!login) {
 			return { loginRequired: true };
 		} else if (!password) {
