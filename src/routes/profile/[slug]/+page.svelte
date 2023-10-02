@@ -3,11 +3,14 @@
 
 	export let data;
 
-	let user = JSON.stringify(data.nickname);
-	console.log($page.data.User);
+	let user = data.nickname;
 </script>
 
-Nickname: {user}
+Nickname: {user.login}
+
+<form action="?/myProfile" method="post">
+	<button>My Profile</button>
+</form>
 
 {#if $page.data.User}
 	<form action="?/logout" method="post">
