@@ -1,7 +1,41 @@
 <script lang="ts">
-	import { weapons, offhands, capes, helmets, armors, boots, potions, food } from "./components/items";
+	import { page } from "$app/stores";
 
-	let selectedWeapon: {
+	export let data;
+	let weapons = data.weapons;
+	let offhands = data.offhands;
+	let helmets = data.helmets;
+	let armors = data.armors;
+	let boots = data.boots;
+	let capes = data.capes;
+	let potions = data.potions;
+	let food = data.food;
+
+	let selectedWeaponName = "";
+	let selectedQspellName = "";
+	let selectedWspellName = "";
+	let selectedWeaponPassiveName = "";
+
+	let selectedOffhandName = "";
+
+	let selectedHelmetName = "";
+	let selectedHelmetSpellName = "";
+	let selectedHelmetPassiveName = "";
+
+	let selectedArmorName = "";
+	let selectedArmorSpellName = "";
+	let selectedArmorPassiveName = "";
+	let selectedArmorPassive2Name = "";
+
+	let selectedBootsName = "";
+	let selectedBootsSpellName = "";
+	let selectedBootsPassiveName = "";
+
+	let selectedCapeName = "";
+	let selectedPotionName = "";
+	let selectedFoodName = "";
+
+	const DEFAULT_WEAPON: {
 		name: string;
 		onehand: boolean;
 		img: string;
@@ -38,11 +72,11 @@
 			}
 		]
 	};
-	let selectedOffhand: { name: string; img: string } = {
+	const DEFAULT_OFFHAND: { name: string; img: string } = {
 		name: "",
 		img: "images/no-item.png"
 	};
-	let selectedHelmet: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
+	const DEFAULT_HELMET: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
 		name: "",
 		img: "images/no-item.png",
 		spell: [
@@ -58,7 +92,7 @@
 			}
 		]
 	};
-	let selectedArmor: { name: string; img: string; plate: boolean; spell: { name: string; img: string }[]; passive: { name: string; img: string }[]; passive2: { name: string; img: string }[] } = {
+	const DEFAULT_ARMOR: { name: string; img: string; plate: boolean; spell: { name: string; img: string }[]; passive: { name: string; img: string }[]; passive2: { name: string; img: string }[] } = {
 		name: "",
 		img: "images/no-item.png",
 		plate: false,
@@ -81,7 +115,7 @@
 			}
 		]
 	};
-	let selectedBoots: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
+	const DEFAULT_BOOTS: { name: string; img: string; spell: { name: string; img: string }[]; passive: { name: string; img: string }[] } = {
 		name: "",
 		img: "images/no-item.png",
 		spell: [
@@ -97,63 +131,83 @@
 			}
 		]
 	};
-	let selectedCape: { name: string; img: string } = {
+	const DEFAULT_CAPE: { name: string; img: string } = {
 		name: "",
 		img: "images/no-item.png"
 	};
-	let selectedPotion: { name: string; img: string } = {
+	const DEFAULT_POTION: { name: string; img: string } = {
 		name: "",
 		img: "images/no-item.png"
 	};
-	let selectedFood: { name: string; img: string } = {
+	const DEFAULT_FOOD: { name: string; img: string } = {
 		name: "",
 		img: "images/no-item.png"
 	};
+
+	$: selectedWeapon = weapons.find((weapon: any) => weapon.name === selectedWeaponName) || DEFAULT_WEAPON;
+	$: selectedQspell = selectedWeapon.Qspell.find((Qspell: any) => Qspell.name === selectedQspellName) || DEFAULT_WEAPON.Qspell;
+	$: selectedWspell = selectedWeapon.Wspell.find((Wspell: any) => Wspell.name === selectedWspellName) || DEFAULT_WEAPON.Wspell;
+	$: selectedWeaponPassive = selectedWeapon.Passive.find((Passive: any) => Passive.name === selectedWeaponPassiveName) || DEFAULT_WEAPON.Passive;
+
+	$: selectedOffhand = offhands.find((offhand: any) => offhand.name === selectedOffhandName) || DEFAULT_OFFHAND;
+
+	$: selectedHelmet = helmets.find((helmet: any) => helmet.name === selectedHelmetName) || DEFAULT_HELMET;
+	$: selectedHelmetSpell = selectedHelmet.spell.find((spell: any) => spell.name === selectedHelmetSpellName) || DEFAULT_HELMET.spell;
+	$: selectedHelmetPassive = selectedHelmet.passive.find((spell: any) => spell.name === selectedHelmetPassiveName) || DEFAULT_HELMET.passive;
+
+	$: selectedArmor = armors.find((armor: any) => armor.name === selectedArmorName) || DEFAULT_ARMOR;
+	$: selectedArmorSpell = selectedArmor.spell.find((spell: any) => spell.name === selectedArmorSpellName) || DEFAULT_ARMOR.spell;
+	$: selectedArmorPassive = selectedArmor.passive.find((spell: any) => spell.name === selectedArmorPassiveName) || DEFAULT_ARMOR.passive;
+	$: selectedArmorPassive2 = selectedArmor.passive2.find((spell: any) => spell.name === selectedArmorPassive2Name) || DEFAULT_ARMOR.passive2;
+
+	$: selectedBoots = boots.find((boots: any) => boots.name === selectedBootsName) || DEFAULT_BOOTS;
+	$: selectedBootsSpell = selectedBoots.spell.find((spell: any) => spell.name === selectedBootsSpellName) || DEFAULT_BOOTS.spell;
+	$: selectedBootsPassive = selectedBoots.passive.find((spell: any) => spell.name === selectedBootsPassiveName) || DEFAULT_BOOTS.passive;
+
+	$: selectedCape = capes.find((cape: any) => cape.name === selectedCapeName) || DEFAULT_CAPE;
+	$: selectedPotion = potions.find((potion: any) => potion.name === selectedPotionName) || DEFAULT_POTION;
+	$: selectedFood = food.find((food: any) => food.name === selectedFoodName) || DEFAULT_FOOD;
 </script>
 
 <body>
 	<div class="form">
-		<form>
+		<form action="?/saveBuild" method="post">
 			<div class="weaponSelect">
-				<!-----------Weapon select------------->
 				<label>
 					Weapon:
-					<select bind:value={selectedWeapon}>
+					<select name="weapon" bind:value={selectedWeaponName}>
 						{#each weapons as weapon}
-							<option value={weapon}>
+							<option value={weapon.name}>
 								{weapon.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Weapon Qspell select------------->
 				<label>
 					Q Spell:
-					<select bind:value={selectedWeapon.Qspell[-10]}>
+					<select name="Qspell" bind:value={selectedQspellName}>
 						{#each selectedWeapon.Qspell as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Weapon Wspell select------------->
 				<label>
 					W Spell:
-					<select bind:value={selectedWeapon.Wspell[-10]}>
+					<select name="Wspell" bind:value={selectedWspellName}>
 						{#each selectedWeapon.Wspell as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Weapon Passive select------------->
 				<label>
 					Passive:
-					<select bind:value={selectedWeapon.Passive[-10]}>
+					<select name="weaponPassive" bind:value={selectedWeaponPassiveName}>
 						{#each selectedWeapon.Passive as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
@@ -161,12 +215,11 @@
 				</label>
 			</div>
 			<div class="offhandSelect">
-				<!-----------Offhand select------------>
 				<label>
 					Offhand:
-					<select disabled={!selectedWeapon.onehand} bind:value={selectedOffhand}>
+					<select name="offhand" disabled={!selectedWeapon.onehand} bind:value={selectedOffhandName}>
 						{#each offhands as offhand}
-							<option value={offhand}>
+							<option value={offhand.name}>
 								{offhand.name}
 							</option>
 						{/each}
@@ -174,34 +227,31 @@
 				</label>
 			</div>
 			<div class="helmetSelect">
-				<!-----------Helmet select------------->
 				<label>
 					Helmet:
-					<select bind:value={selectedHelmet}>
+					<select name="helmet" bind:value={selectedHelmetName}>
 						{#each helmets as helmet}
-							<option value={helmet}>
+							<option value={helmet.name}>
 								{helmet.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Helmet spell select------------->
 				<label>
 					Spell:
-					<select bind:value={selectedHelmet.spell[-10]}>
+					<select name="helmetSpell" bind:value={selectedHelmetSpellName}>
 						{#each selectedHelmet.spell as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Helmet passive select------------->
 				<label>
 					Passive:
-					<select bind:value={selectedHelmet.passive[-10]}>
+					<select name="helmetPassive" bind:value={selectedHelmetPassiveName}>
 						{#each selectedHelmet.passive as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
@@ -209,45 +259,41 @@
 				</label>
 			</div>
 			<div class="armorSelect">
-				<!-----------Armor select-------------->
 				<label>
 					Armor:
-					<select bind:value={selectedArmor}>
+					<select name="armor" bind:value={selectedArmorName}>
 						{#each armors as armor}
-							<option value={armor}>
+							<option value={armor.name}>
 								{armor.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Armor spell select------------->
 				<label>
 					Spell:
-					<select bind:value={selectedArmor.spell[-10]}>
+					<select name="armorSpell" bind:value={selectedArmorSpellName}>
 						{#each selectedArmor.spell as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Armor passive select------------->
 				<label>
 					Passive:
-					<select bind:value={selectedArmor.passive[-10]}>
+					<select name="armorPassive" bind:value={selectedArmorPassiveName}>
 						{#each selectedArmor.passive as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Armor second passive select------------->
 				<label>
 					Passive 2:
-					<select disabled={!selectedArmor.plate} bind:value={selectedArmor.passive2[-10]}>
+					<select name="armorPassive2" disabled={!selectedArmor.plate} bind:value={selectedArmorPassive2Name}>
 						{#each selectedArmor.passive2 as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
@@ -255,34 +301,32 @@
 				</label>
 			</div>
 			<div class="bootsSelect">
-				<!-----------Boots select------------->
 				<label>
 					Boots:
-					<select bind:value={selectedBoots}>
+					<select name="boots" bind:value={selectedBootsName}>
 						{#each boots as boots}
-							<option value={boots}>
+							<option value={boots.name}>
 								{boots.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Helmet spell select------------->
 				<label>
 					Spell:
-					<select bind:value={selectedBoots.spell[-10]}>
+					<select name="bootsSpell" bind:value={selectedBootsSpellName}>
 						{#each selectedBoots.spell as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
 					</select>
 				</label>
-				<!-----------Helmet passive select------------->
+
 				<label>
 					Passive:
-					<select bind:value={selectedBoots.passive[-10]}>
+					<select name="bootsPassive" bind:value={selectedBootsPassiveName}>
 						{#each selectedBoots.passive as spell}
-							<option value={spell}>
+							<option value={spell.name}>
 								{spell.name}
 							</option>
 						{/each}
@@ -290,12 +334,11 @@
 				</label>
 			</div>
 			<div class="capeSelect">
-				<!------------Cape select-------------->
 				<label>
 					Cape:
-					<select bind:value={selectedCape}>
+					<select name="cape" bind:value={selectedCapeName}>
 						{#each capes as cape}
-							<option value={cape}>
+							<option value={cape.name}>
 								{cape.name}
 							</option>
 						{/each}
@@ -303,12 +346,11 @@
 				</label>
 			</div>
 			<div class="potionSelect">
-				<!-----------Potion select------------->
 				<label>
 					Potion:
-					<select bind:value={selectedPotion}>
+					<select name="potion" bind:value={selectedPotionName}>
 						{#each potions as potion}
-							<option value={potion}>
+							<option value={potion.name}>
 								{potion.name}
 							</option>
 						{/each}
@@ -316,18 +358,20 @@
 				</label>
 			</div>
 			<div class="foodSelect">
-				<!------------Food select-------------->
 				<label>
 					Food:
-					<select bind:value={selectedFood}>
+					<select name="food" bind:value={selectedFoodName}>
 						{#each food as food}
-							<option value={food}>
+							<option value={food.name}>
 								{food.name}
 							</option>
 						{/each}
 					</select>
 				</label>
 			</div>
+			{#if $page.data.User}
+				<button>Save build</button>
+			{/if}
 		</form>
 	</div>
 	<div class="items">
@@ -357,24 +401,24 @@
 			<div class="weaponSpells">
 				<div class="itemName">{selectedWeapon.name}</div>
 				<img id="weaponSpell" src={selectedWeapon.img} alt={selectedWeapon.name} />
-				<img id="spell" src={selectedWeapon.Qspell[-10]?.img} alt={selectedWeapon.Qspell[-10]?.name} />
-				<img id="spell" src={selectedWeapon.Wspell[-10]?.img} alt={selectedWeapon.Wspell[-10]?.name} />
-				<img id="spell" src={selectedWeapon.Espell[0]?.img} alt={selectedWeapon.Espell[0]?.name} />
-				<img id="spell" src={selectedWeapon.Passive[-10]?.img} alt={selectedWeapon.Passive[-10]?.name} />
+				<img id="spell" src={selectedQspell.img} alt={selectedQspell.name} />
+				<img id="spell" src={selectedWspell.img} alt={selectedWspell.name} />
+				<img id="spell" src={selectedWeapon.Espell[0].img} alt={selectedWeapon.Espell[0].name} />
+				<img id="spell" src={selectedWeaponPassive.img} alt={selectedWeaponPassive.name} />
 			</div>
 			<div class="helmetSpells">
 				<div class="itemName">{selectedHelmet.name}</div>
 				<img id="helmetSpell" src={selectedHelmet.img} alt={selectedHelmet.name} />
-				<img id="spell" src={selectedHelmet.spell[-10]?.img} alt={selectedHelmet.spell[-10]?.name} />
-				<img id="spell" src={selectedHelmet.passive[-10]?.img} alt={selectedHelmet.passive[-10]?.name} />
+				<img id="spell" src={selectedHelmetSpell.img} alt={selectedHelmetSpell.name} />
+				<img id="spell" src={selectedHelmetPassive.img} alt={selectedHelmetPassive.name} />
 			</div>
 			<div class="armorSpells">
 				<div class="itemName">{selectedArmor.name}</div>
 				<img id="armorSpell" src={selectedArmor.img} alt={selectedArmor.name} />
-				<img id="spell" src={selectedArmor.spell[-10]?.img} alt={selectedArmor.spell[-10]?.name} />
-				<img id="spell" src={selectedArmor.passive[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
+				<img id="spell" src={selectedArmorSpell.img} alt={selectedArmorSpell.name} />
+				<img id="spell" src={selectedArmorPassive.img} alt={selectedArmorPassive.name} />
 				{#if selectedArmor.plate == true}
-					<img id="spell" src={selectedArmor.passive2[-10]?.img} alt={selectedArmor.passive[-10]?.name} />
+					<img id="spell" src={selectedArmorPassive2.img} alt={selectedArmorPassive2.name} />
 				{:else}
 					<!-- svelte-ignore empty-block -->
 				{/if}
@@ -382,8 +426,8 @@
 			<div class="bootsSpells">
 				<div class="itemName">{selectedBoots.name}</div>
 				<img id="bootsSpell" src={selectedBoots.img} alt={selectedBoots.name} />
-				<img id="spell" src={selectedBoots.spell[-10]?.img} alt={selectedBoots.spell[-10]?.name} />
-				<img id="spell" src={selectedBoots.passive[-10]?.img} alt={selectedBoots.passive[-10]?.name} />
+				<img id="spell" src={selectedBootsSpell.img} alt={selectedBootsSpell.name} />
+				<img id="spell" src={selectedBootsPassive.img} alt={selectedBootsPassive.name} />
 			</div>
 		</div>
 	</div>
