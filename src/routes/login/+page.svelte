@@ -6,10 +6,9 @@
 
 <body>
 	<div class="container">
-		<form method="post" action="?/login">
+		<form action="?/login" method="post">
 			<div class="inputs">
 				<p>Login:</p>
-
 				<input name="login" type="text" /><br />
 				<p>Password:</p>
 				<input id="password" name="password" type="password" /><br />

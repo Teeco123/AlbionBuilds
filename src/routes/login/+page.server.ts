@@ -1,4 +1,4 @@
-import { db, client } from "$lib/server/db.js";
+import { db } from "$lib/server/db.js";
 import { redirect } from "@sveltejs/kit";
 
 export const actions = {
