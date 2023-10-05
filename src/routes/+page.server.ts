@@ -195,9 +195,9 @@ export const actions = {
 				Passive: foundWeapon[0].Passive
 			},
 			offhand: {
-				_id: foundOffhand[0]._id,
-				name: foundOffhand[0].name,
-				img: foundOffhand[0].img
+				_id: foundOffhand[0]?._id,
+				name: foundOffhand[0]?.name,
+				img: foundOffhand[0]?.img
 			},
 			helmet: {
 				_id: foundHelmet[0]._id,
