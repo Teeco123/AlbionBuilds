@@ -438,7 +438,7 @@
 	body {
 		font-family: "Roboto";
 		margin: 0;
-		background-color: #f6f5f1;
+		background-color: #eeeeee;
 	}
 
 	.form label,
