@@ -19,7 +19,7 @@ export const actions = {
 				maxAge: 60 * 60 * 24 * 2
 			});
 
-			throw redirect(303, `/profile/${login}`);
+			throw redirect(303, `/`);
 		} else if (!login) {
 			return { loginRequired: true };
 		} else if (!password) {
