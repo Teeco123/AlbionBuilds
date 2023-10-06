@@ -172,6 +172,12 @@
 <body>
 	<div class="form">
 		<form action="?/saveBuild" method="post">
+			{#if !$page.data.User}
+				<button style="float: right; margin: 15px" formaction="?/loginRedirect">Login</button>
+			{:else}
+				<button style="float: right; margin: 15px" formaction="?/logout">Logout</button>
+				<button style="float: right; margin: 15px" formaction="?/myProfile">My Profile</button>
+			{/if}
 			<div class="weaponSelect">
 				<label>
 					Weapon:
