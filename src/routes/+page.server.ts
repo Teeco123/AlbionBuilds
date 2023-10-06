@@ -1,7 +1,6 @@
 // @ts-nocheck
 import { db } from "$lib/server/db.js";
 import { ObjectId } from "mongodb";
-import { boots } from "./components/items.js";
 import { redirect } from "@sveltejs/kit";
 
 export const load = async () => {
