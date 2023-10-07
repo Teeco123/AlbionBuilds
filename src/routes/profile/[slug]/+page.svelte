@@ -33,13 +33,13 @@
 			<div class="build">
 				<img class="inventory" src="/images/inventory.png" alt="inventory" />
 				<div class="items">
-					<img style="top:34%; left:-1%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
+					<img style="top:34%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
 					<img style="top:34%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
-					<img style="top:-1%; left:32%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
-					<img style="top:30%; left:32%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
-					<img style="top:61%; left:32%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
-					<img style="top:2%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
-					<img style="top:65%; left:-1%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
+					<img style="top:-1%; left:33%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
+					<img style="top:30%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
+					<img style="top:61%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
+					<img style="top:3%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
+					<img style="top:65%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
 					<img style="top:65%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
 				</div>
 			</div>
@@ -60,6 +60,9 @@
 
 	.build {
 		position: relative;
+		background-color: #eeeeee;
+		border-radius: 9px;
+		padding: 2px;
 	}
 
 	.inventory {
@@ -68,6 +71,6 @@
 
 	.itemBuild {
 		position: absolute;
-		width: 36%;
+		width: 35%;
 	}
 </style>
