@@ -47,7 +47,6 @@
 			</a>
 		{/each}
 	</div>
-	<div>d</div>
 </body>
 
 <style>
