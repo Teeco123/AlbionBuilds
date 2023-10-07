@@ -58,7 +58,7 @@
 		margin: 3% 2% 3% 2%;
 		display: grid;
 		grid-template-columns: auto auto auto auto;
-		gap: 8% 2%;
+		gap: 2% 2%;
 	}
 
 	.build {
