@@ -8,8 +8,8 @@ export const load = async ({ params }) => {
 
 	const u_id = new ObjectId(nickname._id);
 
-	const foundBuild = await db.collection("Builds").find({ user_id: u_id }).toArray();
-	const builds = JSON.parse(JSON.stringify(foundBuild));
+	const foundBuilds = await db.collection("Builds").find({ user_id: u_id }).toArray();
+	const builds = JSON.parse(JSON.stringify(foundBuilds));
 
 	return {
 		builds,
