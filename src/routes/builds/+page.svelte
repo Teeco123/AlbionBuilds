@@ -7,6 +7,28 @@
 </script>
 
 <body>
+	<div class="header">
+		<div class="home"><a href="/">Albion Builds</a></div>
+		<div class="buttons">
+			<form action="?" method="post">
+				{#if !$page.data.User}
+					<button formaction="?/loginRedirect">
+						<img src="/images/login.png" alt="login" />
+						<p>Login</p>
+					</button>
+				{:else}
+					<button formaction="?/logout">
+						<img src="/images/logout.png" alt="logout" />
+						<p>Logout</p>
+					</button>
+					<button formaction="?/myProfile">
+						<img src="/images/myprofile.png" alt="my profile" />
+						<p>My Profile</p>
+					</button>
+				{/if}
+			</form>
+		</div>
+	</div>
 	<div class="builds">
 		{#each builds as build}
 			<a class="build" href="/build/{build._id}">
@@ -26,10 +48,43 @@
 	</div>
 </body>
 
-<style>
+<style lang="scss">
 	body {
 		margin: 0px;
 	}
+
+	.header {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		.home {
+			margin: 20px 0 20px 0;
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+		.buttons {
+			button {
+				display: flex;
+				border: none;
+				float: right;
+				margin: 15px;
+				cursor: pointer;
+				background-color: white;
+				p {
+					text-align: center;
+					margin: 8px 0px 8px 0px;
+					font-size: 15px;
+				}
+				img {
+					width: 32px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+
 	.builds {
 		margin: 3% 2% 3% 2%;
 		display: grid;
