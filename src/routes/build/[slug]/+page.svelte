@@ -1,12 +1,38 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
+	import { page } from "$app/stores";
 
 	export let data: PageData;
+	let user = data.user;
 </script>
 
 <body>
-	Created by: {data.user.login}
+	<div class="header">
+		<div>LOGO</div>
+		<div>
+			{#if $page.data.User}
+				<form action="?/myProfile" method="post">
+					<button>My Profile</button>
+				</form>
+			{/if}
 
+			{#if $page.data.User}
+				<form action="?/logout" method="post">
+					<button>Logout</button>
+				</form>
+			{/if}
+
+			{#if !$page.data.User}
+				<form action="?/loginRedirect" method="post">
+					<button>Login</button>
+				</form>
+			{/if}
+		</div>
+	</div>
+	<div class="info">
+		<div>Created By: {data.userBuild.login}</div>
+		<div>Build name: NAME</div>
+	</div>
 	<div class="container">
 		<div class="build">
 			<img class="inventory" src="/images/inventory.png" alt="inventory" />
@@ -30,7 +56,7 @@
 				<img class="spell" src={data.build.weapon.Espell.img} alt={data.build.weapon.Espell.name} />
 				<img class="spell" src={data.build.weapon.Passive.img} alt={data.build.weapon.Passive.name} />
 			</div>
-			<div class="spells">
+			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{data.build.helmet.name}</div>
 				<img class="item" src={data.build.helmet.img} alt={data.build.weapon.name} />
 				<img class="spell" src={data.build.helmet.spell.img} alt={data.build.helmet.spell.name} />
@@ -43,7 +69,7 @@
 				<img class="spell" src={data.build.armor.passive.img} alt={data.build.armor.passive.name} />
 				<img class="spell" src={data.build.armor.passive2.img} alt={data.build.armor.passive2.name} />
 			</div>
-			<div class="spells">
+			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{data.build.boots.name}</div>
 				<img class="item" src={data.build.boots.img} alt={data.build.weapon.name} />
 				<img class="spell" src={data.build.boots.spell.img} alt={data.build.boots.spell.name} />
@@ -61,8 +87,31 @@
 		font-family: "Roboto";
 	}
 
+	.header {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.header div {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0 20px 0;
+	}
+
+	.info {
+		background-color: #e0e0e0;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 50px 20% 50px 20%;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+	.info div {
+		font-size: 20px;
+	}
+
 	.container {
-		height: 1080px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -87,11 +136,18 @@
 		width: 120px;
 	}
 
+	.itemName {
+		margin-left: 12px;
+		font-size: 16px;
+	}
+
 	.spell {
 		width: 80px;
 	}
 
 	.spells {
 		margin-top: 5px;
+		border-radius: 10px;
+		padding-top: 5px;
 	}
 </style>
