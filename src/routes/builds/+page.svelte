@@ -119,7 +119,6 @@
 				transition: width 1s, margin 1s, border-radius 1s;
 				.buildname,
 				.nickname {
-					margin-top: 2px;
 					display: flex;
 					text-align: center;
 					font-size: 0.8vw;
