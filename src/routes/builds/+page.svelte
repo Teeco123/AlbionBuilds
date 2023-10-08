@@ -45,14 +45,14 @@
 				<div class="build">
 					<img class="inventory" src="/images/inventory.png" alt="inventory" />
 					<div class="items">
-						<img style="top:28%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
-						<img style="top:28%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
+						<img style="top:28.5%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
+						<img style="top:28.5%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
 						<img style="top:0%; left:33%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
 						<img style="top:25.5%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
-						<img style="top:50.5%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
+						<img style="top:51.5%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
 						<img style="top:3%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
-						<img style="top:54%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
-						<img style="top:54%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
+						<img style="top:54.5%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
+						<img style="top:54.5%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
 					</div>
 				</div>
 			</a>
