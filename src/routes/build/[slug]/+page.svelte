@@ -8,25 +8,29 @@
 
 <body>
 	<div class="header">
-		<div>LOGO</div>
-		<div>
-			{#if $page.data.User}
-				<form action="?/myProfile" method="post">
-					<button>My Profile</button>
-				</form>
-			{/if}
-
-			{#if $page.data.User}
-				<form action="?/logout" method="post">
-					<button>Logout</button>
-				</form>
-			{/if}
-
-			{#if !$page.data.User}
-				<form action="?/loginRedirect" method="post">
-					<button>Login</button>
-				</form>
-			{/if}
+		<div class="home"><a href="/">Albion Builds</a></div>
+		<div class="buttons">
+			<form action="?" method="post">
+				{#if !$page.data.User}
+					<button formaction="?/loginRedirect">
+						<img src="/images/login.png" alt="login" />
+						<p>Login</p>
+					</button>
+				{:else}
+					<button formaction="?/logout">
+						<img src="/images/logout.png" alt="logout" />
+						<p>Logout</p>
+					</button>
+					<button formaction="?/myProfile">
+						<img src="/images/myprofile.png" alt="my profile" />
+						<p>My Profile</p>
+					</button>
+				{/if}
+				<button formaction="?/allBuilds">
+					<img src="/images/list.png" alt="list" />
+					<p>All Builds</p>
+				</button>
+			</form>
 		</div>
 	</div>
 	<div class="info">
@@ -79,23 +83,44 @@
 	</div>
 </body>
 
-<style>
+<style lang="scss">
 	@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 	body {
 		margin: 0;
 		background-color: #eeeeee;
 		font-family: "Roboto";
+		height: 100vh;
 	}
 
 	.header {
 		display: flex;
 		justify-content: space-around;
-	}
-
-	.header div {
-		display: flex;
-		justify-content: center;
-		margin: 20px 0 20px 0;
+		width: 100%;
+		.home {
+			margin: 20px 0 20px 0;
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+		.buttons {
+			button {
+				display: flex;
+				border: none;
+				float: right;
+				margin: 15px;
+				cursor: pointer;
+				p {
+					text-align: center;
+					margin: 8px 0px 8px 0px;
+					font-size: 15px;
+				}
+				img {
+					width: 32px;
+					margin-right: 10px;
+				}
+			}
+		}
 	}
 
 	.info {

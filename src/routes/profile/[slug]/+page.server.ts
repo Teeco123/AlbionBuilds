@@ -27,6 +27,9 @@ export const actions = {
 	loginRedirect: async () => {
 		throw redirect(303, "/login");
 	},
+	allBuilds: async () => {
+		throw redirect(303, "/builds");
+	},
 	myProfile: async ({ cookies }) => {
 		const session = cookies.get("session");
 		var o_id = new ObjectId(session);
