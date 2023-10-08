@@ -117,8 +117,7 @@
 				border-radius: 9px 9px 9px 09px;
 				padding: 2px;
 				transition: width 1s, margin 1s, border-radius 1s;
-				.buildname,
-				.nickname {
+				.buildname {
 					display: flex;
 					text-align: center;
 					font-size: 0.8vw;
