@@ -170,14 +170,30 @@
 </script>
 
 <body>
+	<div class="header">
+		<div class="home">HOME</div>
+		<div class="buttons">
+			<form action="?" method="post">
+				{#if !$page.data.User}
+					<button formaction="?/loginRedirect">
+						<img src="images/login.png" alt="login" />
+						<p>Login</p>
+					</button>
+				{:else}
+					<button formaction="?/logout">
+						<img src="images/logout.png" alt="logout" />
+						<p>Logout</p>
+					</button>
+					<button formaction="?/myProfile">
+						<img src="images/myprofile.png" alt="my profile" />
+						<p>My Profile</p>
+					</button>
+				{/if}
+			</form>
+		</div>
+	</div>
 	<div class="form">
 		<form action="?/saveBuild" method="post">
-			{#if !$page.data.User}
-				<button style="float: right; margin: 15px" formaction="?/loginRedirect">Login</button>
-			{:else}
-				<button style="float: right; margin: 15px" formaction="?/logout">Logout</button>
-				<button style="float: right; margin: 15px" formaction="?/myProfile">My profile</button>
-			{/if}
 			<div class="weaponSelect">
 				<label>
 					Weapon:
@@ -380,71 +396,81 @@
 			{/if}
 		</form>
 	</div>
-	<div class="items">
-		<img id="inventory" src="images/inventory.png" alt="inventory" />
-		{#if selectedWeapon.onehand == true}
-			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
-			<img id="offhand" src={selectedOffhand.img} alt={selectedOffhand.name} />
-			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
-			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
-			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
-			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
-			<img id="potion" src={selectedPotion.img} alt={selectedPotion.name} />
-			<img id="food" src={selectedFood.img} alt={selectedFood.name} />
-		{:else}
-			<img id="weapon" src={selectedWeapon.img} alt={selectedWeapon.name} />
-			<img id="offhand" src="images/no-item.png" alt={selectedOffhand.name} />
-			<img id="helmet" src={selectedHelmet.img} alt={selectedHelmet.name} />
-			<img id="armor" src={selectedArmor.img} alt={selectedArmor.name} />
-			<img id="boots" src={selectedBoots.img} alt={selectedBoots.name} />
-			<img id="cape" src={selectedCape.img} alt={selectedCape.name} />
-			<img id="potion" src={selectedPotion.img} alt={selectedPotion.name} />
-			<img id="food" src={selectedFood.img} alt={selectedFood.name} />
-		{/if}
-	</div>
-	<div class="spell-box">
-		<div class="spells">
-			<div class="weaponSpells">
+	<div class="container">
+		<div class="build">
+			<img class="inventory" src="/images/inventory.png" alt="inventory" />
+			<div class="items">
+				<img style="top:215px; left:0px" class="itemBuild" src={selectedWeapon.img} alt={selectedWeapon.name} />
+				<img style="top:215px; left:365px" class="itemBuild" src={selectedOffhand.img} alt={selectedOffhand.name} />
+				<img style="top:25px; left:185px" class="itemBuild" src={selectedHelmet.img} alt={selectedHelmet.name} />
+				<img style="top:195px; left:185px" class="itemBuild" src={selectedArmor.img} alt={selectedArmor.name} />
+				<img style="top:358px; left:185px" class="itemBuild" src={selectedBoots.img} alt={selectedBoots.name} />
+				<img style="top:50px; left:365px" class="itemBuild" src={selectedCape.img} alt={selectedCape.name} />
+				<img style="top:378px; left:0px" class="itemBuild" src={selectedPotion.img} alt={selectedPotion.name} />
+				<img style="top:378px; left:365px" class="itemBuild" src={selectedFood.img} alt={selectedFood.name} />
+			</div>
+		</div>
+		<div class="spellBox">
+			<div class="spells">
 				<div class="itemName">{selectedWeapon.name}</div>
-				<img id="weaponSpell" src={selectedWeapon.img} alt={selectedWeapon.name} />
-				<img id="spell" src={selectedQspell.img} alt={selectedQspell.name} />
-				<img id="spell" src={selectedWspell.img} alt={selectedWspell.name} />
-				<img id="spell" src={selectedWeapon.Espell[0].img} alt={selectedWeapon.Espell[0].name} />
-				<img id="spell" src={selectedWeaponPassive.img} alt={selectedWeaponPassive.name} />
+				<img class="item" src={selectedWeapon.img} alt={selectedWeapon.name} />
+				<img class="spell" src={selectedQspell.img} alt={selectedQspell.name} />
+				<img class="spell" src={selectedWspell.img} alt={selectedWspell.name} />
+				<img class="spell" src={selectedWeapon.Espell[0].img} alt={selectedWeapon.Espell[0].name} />
+				<img class="spell" src={selectedWeaponPassive.img} alt={selectedWeaponPassive.name} />
 			</div>
-			<div class="helmetSpells">
+			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{selectedHelmet.name}</div>
-				<img id="helmetSpell" src={selectedHelmet.img} alt={selectedHelmet.name} />
-				<img id="spell" src={selectedHelmetSpell.img} alt={selectedHelmetSpell.name} />
-				<img id="spell" src={selectedHelmetPassive.img} alt={selectedHelmetPassive.name} />
+				<img class="item" src={selectedHelmet.img} alt={selectedHelmet.name} />
+				<img class="spell" src={selectedHelmetSpell.img} alt={selectedHelmetSpell.name} />
+				<img class="spell" src={selectedHelmetPassive.img} alt={selectedHelmetPassive.name} />
 			</div>
-			<div class="armorSpells">
+			<div class="spells">
 				<div class="itemName">{selectedArmor.name}</div>
-				<img id="armorSpell" src={selectedArmor.img} alt={selectedArmor.name} />
-				<img id="spell" src={selectedArmorSpell.img} alt={selectedArmorSpell.name} />
-				<img id="spell" src={selectedArmorPassive.img} alt={selectedArmorPassive.name} />
-				{#if selectedArmor.plate == true}
-					<img id="spell" src={selectedArmorPassive2.img} alt={selectedArmorPassive2.name} />
-				{:else}
-					<!-- svelte-ignore empty-block -->
-				{/if}
+				<img class="item" src={selectedArmor.img} alt={selectedArmor.name} />
+				<img class="spell" src={selectedArmorSpell.img} alt={selectedArmorSpell.name} />
+				<img class="spell" src={selectedArmorPassive.img} alt={selectedArmorPassive.name} />
+				<img class="spell" src={selectedArmorPassive2.img} alt={selectedArmorPassive2.name} />
 			</div>
-			<div class="bootsSpells">
+			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{selectedBoots.name}</div>
-				<img id="bootsSpell" src={selectedBoots.img} alt={selectedBoots.name} />
-				<img id="spell" src={selectedBootsSpell.img} alt={selectedBootsSpell.name} />
-				<img id="spell" src={selectedBootsPassive.img} alt={selectedBootsPassive.name} />
+				<img class="item" src={selectedBoots.img} alt={selectedBoots.name} />
+				<img class="spell" src={selectedBootsSpell.img} alt={selectedBootsSpell.name} />
+				<img class="spell" src={selectedBootsPassive.img} alt={selectedBootsPassive.name} />
 			</div>
 		</div>
 	</div>
 </body>
 
-<style>
+<style lang="scss">
 	@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 	body {
 		font-family: "Roboto";
 		margin: 0;
 		background-color: #eeeeee;
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		.buttons {
+			button {
+				display: flex;
+				border: none;
+				float: right;
+				margin: 15px;
+				cursor: pointer;
+				p {
+					text-align: center;
+					margin: 8px 0px 8px 0px;
+				}
+				img {
+					width: 32px;
+					margin-right: 10px;
+				}
+			}
+		}
 	}
 
 	.form label,
@@ -453,163 +479,43 @@
 		margin-left: 10px;
 	}
 
-	.items {
-		width: 570px;
-		display: block;
-		float: left;
-		left: 660px;
-		position: relative;
-		background-color: #eeeeee;
-	}
-
-	.items img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#inventory {
-		float: left;
-		height: 430px;
-		bottom: -310px;
-		position: absolute;
-	}
-
-	#weapon {
-		width: 150px;
-		position: absolute;
-		bottom: -180px;
-	}
-
-	#offhand {
-		width: 150px;
-		position: absolute;
-		bottom: -180px;
-		left: 300px;
-	}
-
-	#helmet {
-		width: 150px;
-		position: absolute;
-		bottom: -30px;
-		left: 150px;
-	}
-
-	#armor {
-		width: 150px;
-		position: absolute;
-		bottom: -165px;
-		left: 150px;
-	}
-
-	#boots {
-		width: 150px;
-		position: relative;
-		bottom: -300px;
-		left: -60px;
-	}
-
-	#cape {
-		width: 150px;
-		position: absolute;
-		bottom: -50px;
-		left: 300px;
-	}
-
-	#potion {
-		width: 150px;
-		position: absolute;
-		bottom: -315px;
-	}
-
-	#food {
-		width: 150px;
-		position: absolute;
-		bottom: -315px;
-		left: 300px;
-	}
-
-	.spell-box {
-		display: block;
-		height: 460px;
-		background-color: #eeeeee;
-	}
-
-	.spells {
-		padding-left: 50px;
-		padding-top: 10px;
-		padding-right: 10px;
-		padding-bottom: 10px;
-		background-color: #eeeeee;
-		display: inline-block;
-		height: 398px;
-		width: 300px;
-		position: relative;
-		left: 530px;
-	}
-
-	.spells img {
-		width: 80px;
-		float: left;
-		position: relative;
-	}
-
-	.weaponSpells {
-		float: left;
-		height: 94px;
-		width: 350px;
-		padding-top: 5px;
-		padding-bottom: 6px;
-		padding-left: 10px;
-		background-color: #dededa;
-		border-radius: 10px;
-		border: #eeeeee solid;
-		background-color: #dededa;
-	}
-
-	.helmetSpells {
-		float: left;
-		height: 94px;
-		width: 350px;
-		padding-top: 6px;
-		padding-bottom: 6px;
-		padding-left: 10px;
-		background-color: #dededa;
-		border-radius: 10px;
-		border: #eeeeee solid;
-		background-color: #eeeeee;
-	}
-
-	.armorSpells {
-		float: left;
-		height: 94px;
-		width: 350px;
-		padding-top: 6px;
-		padding-bottom: 6px;
-		padding-left: 10px;
-		background-color: #dededa;
-		border-radius: 10px;
-		border: #eeeeee solid;
-	}
-
-	.bootsSpells {
-		border-radius: 2px;
-		float: left;
-		height: 94px;
-		width: 350px;
-		padding-top: 5px;
-		padding-bottom: 6px;
-		padding-left: 10px;
-		background-color: #dededa;
-		border-radius: 10px;
-		border: #eeeeee solid;
-		background-color: #eeeeee;
-	}
-
-	#spell {
-		width: 55px;
-		position: relative;
-		bottom: -15px;
-		margin-left: 10px;
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 20px 0 0 0;
+		.build {
+			margin-right: 50px;
+			margin-left: 50px;
+			position: relative;
+			.inventory {
+				width: 550px;
+				margin-top: 30px;
+			}
+			.itemBuild {
+				position: absolute;
+				width: 190px;
+			}
+		}
+		.spellBox {
+			.spells {
+				margin-top: 5px;
+				border-radius: 10px;
+				padding-top: 5px;
+				width: 410px;
+				height: 130px;
+				.itemName {
+					margin-left: 12px;
+					font-size: 16px;
+				}
+				.item {
+					width: 110px;
+				}
+				.spell {
+					width: 70px;
+				}
+			}
+		}
 	}
 </style>
