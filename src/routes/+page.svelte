@@ -171,7 +171,7 @@
 
 <body>
 	<div class="header">
-		<div class="home">HOME</div>
+		<div class="home"><a href="/">Albion Builds</a></div>
 		<div class="buttons">
 			<form action="?" method="post">
 				{#if !$page.data.User}
@@ -189,6 +189,10 @@
 						<p>My Profile</p>
 					</button>
 				{/if}
+				<button formaction="?/allBuilds">
+					<img src="images/list.png" alt="list" />
+					<p>All Builds</p>
+				</button>
 			</form>
 		</div>
 	</div>
@@ -392,7 +396,7 @@
 				</label>
 			</div>
 			{#if $page.data.User}
-				<button>Save build</button>
+				<button class="save">Save build</button>
 			{/if}
 		</form>
 	</div>
@@ -448,12 +452,20 @@
 		font-family: "Roboto";
 		margin: 0;
 		background-color: #eeeeee;
+		height: 100vh;
 	}
 
 	.header {
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
+		.home {
+			margin: 20px 0 20px 0;
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
 		.buttons {
 			button {
 				display: flex;
@@ -464,6 +476,7 @@
 				p {
 					text-align: center;
 					margin: 8px 0px 8px 0px;
+					font-size: 15px;
 				}
 				img {
 					width: 32px;
@@ -473,10 +486,19 @@
 		}
 	}
 
-	.form label,
-	select {
-		margin-top: 8px;
-		margin-left: 10px;
+	.form {
+		label {
+			margin-top: 8px;
+			margin-left: 10px;
+			select {
+				margin-top: 8px;
+				margin-left: 10px;
+				min-width: 100px;
+			}
+		}
+		.save {
+			margin: 20px 0px 0px 20px;
+		}
 	}
 
 	.container {

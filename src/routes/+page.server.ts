@@ -241,6 +241,9 @@ export const actions = {
 	loginRedirect: async () => {
 		throw redirect(303, "/login");
 	},
+	allBuilds: async () => {
+		throw redirect(303, "/builds");
+	},
 	logout: async ({ cookies }) => {
 		cookies.delete("session", { path: "/" });
 		console.log(cookies.get("session"));
