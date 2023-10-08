@@ -37,17 +37,25 @@
 
 	<div class="builds">
 		{#each builds as build}
-			<a class="build" href="/build/{build._id}">
-				<img class="inventory" src="/images/inventory.png" alt="inventory" />
-				<div class="items">
-					<img style="top:34%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
-					<img style="top:34%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
-					<img style="top:0%; left:33%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
-					<img style="top:30%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
-					<img style="top:60%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
-					<img style="top:3%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
-					<img style="top:64%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
-					<img style="top:64%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
+			<a class="buildContainer" href="/build/{build._id}">
+				<div class="info">
+					<div class="buildname">
+						Build Name:<br />
+						NAME
+					</div>
+				</div>
+				<div class="build">
+					<img class="inventory" src="/images/inventory.png" alt="inventory" />
+					<div class="items">
+						<img style="top:28.5%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
+						<img style="top:28.5%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
+						<img style="top:0%; left:33%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
+						<img style="top:25.5%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
+						<img style="top:51.5%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
+						<img style="top:3%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
+						<img style="top:54.5%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
+						<img style="top:54.5%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
+					</div>
 				</div>
 			</a>
 		{/each}
@@ -94,33 +102,59 @@
 	.builds {
 		margin: 3% 2% 3% 2%;
 		display: grid;
-		grid-template-columns: auto auto auto auto;
-		gap: 2% 2%;
-	}
+		grid-template-columns: auto auto auto auto auto;
+		gap: 10% 2%;
+		.buildContainer {
+			text-decoration: none;
+			color: black;
+			.info {
+				display: flex;
+				justify-content: space-around;
+				width: 90%;
+				height: 9%;
+				background-color: #eeeeee;
+				margin: 5%;
+				border-radius: 9px 9px 9px 09px;
+				padding: 2px;
+				transition: width 1s, margin 1s, border-radius 1s;
+				.buildname,
+				.nickname {
+					display: flex;
+					text-align: center;
+					font-size: 0.8vw;
+				}
+			}
+			.build {
+				margin: 5%;
+				width: 90%;
+				height: 90%;
+				position: relative;
+				background-color: #eeeeee;
+				border-radius: 9px;
+				padding: 2px;
+				transition: width 1s, height 1s, margin 1s, border-radius 1s;
+				.inventory {
+					width: 100%;
+				}
+				.items {
+					.itemBuild {
+						position: absolute;
+						width: 35%;
+					}
+				}
+			}
+		}
 
-	.build {
-		margin: 5%;
-		width: 90%;
-		height: 90%;
-		position: relative;
-		background-color: #eeeeee;
-		border-radius: 9px;
-		padding: 2px;
-		transition: width 1s, height 1s, margin 1s;
-	}
-
-	.build:hover {
-		width: 100%;
-		height: 100%;
-		margin: 0%;
-	}
-
-	.inventory {
-		width: 100%;
-	}
-
-	.itemBuild {
-		position: absolute;
-		width: 35%;
+		.buildContainer:hover > .info {
+			width: 100%;
+			margin: 0%;
+			border-radius: 9px 9px 0px 0px;
+		}
+		.buildContainer:hover > .build {
+			width: 100%;
+			height: 100%;
+			margin: 0%;
+			border-radius: 0px 0px 9px 9px;
+		}
 	}
 </style>
