@@ -213,14 +213,14 @@
 			}
 		}
 		.container {
-			translate: 0 -15vh;
+			translate: 0 -8%;
 			scale: 80%;
 		}
 	}
 
 	@media only screen and (max-width: 500px) {
 		.container {
-			translate: 0 -20vh;
+			translate: 0 -13%;
 			scale: 75%;
 		}
 	}
@@ -232,7 +232,7 @@
 			}
 		}
 		.container {
-			translate: 0 -25vh;
+			translate: 0 -18%;
 			scale: 65%;
 		}
 	}
