@@ -182,8 +182,6 @@ export const actions = {
 		const foundPotion = JSON.parse(JSON.stringify(foundPotionArr));
 		const foundFood = JSON.parse(JSON.stringify(foundFoodArr));
 
-		//console.dir(foundWeapon[0]._id);
-
 		db.collection("Builds").insertOne({
 			name: name,
 			user_id: u_id,

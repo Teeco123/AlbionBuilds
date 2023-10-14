@@ -201,7 +201,7 @@
 			<div class="weaponSelect">
 				<label>
 					Weapon:
-					<select name="weapon" bind:value={selectedWeaponName}>
+					<select name="weapon" bind:value={selectedWeaponName} required>
 						{#each weapons as weapon}
 							<option value={weapon.name}>
 								{weapon.name}
@@ -211,7 +211,7 @@
 				</label>
 				<label>
 					Q Spell:
-					<select name="Qspell" bind:value={selectedQspellName}>
+					<select name="Qspell" bind:value={selectedQspellName} required>
 						{#each selectedWeapon.Qspell as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -221,7 +221,7 @@
 				</label>
 				<label>
 					W Spell:
-					<select name="Wspell" bind:value={selectedWspellName}>
+					<select name="Wspell" bind:value={selectedWspellName} required>
 						{#each selectedWeapon.Wspell as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -231,7 +231,7 @@
 				</label>
 				<label>
 					Passive:
-					<select name="weaponPassive" bind:value={selectedWeaponPassiveName}>
+					<select name="weaponPassive" bind:value={selectedWeaponPassiveName} required>
 						{#each selectedWeapon.Passive as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -243,7 +243,7 @@
 			<div class="offhandSelect">
 				<label>
 					Offhand:
-					<select name="offhand" disabled={!selectedWeapon.onehand} bind:value={selectedOffhandName}>
+					<select name="offhand" disabled={!selectedWeapon.onehand} bind:value={selectedOffhandName} required>
 						{#each offhands as offhand}
 							<option value={offhand.name}>
 								{offhand.name}
@@ -255,7 +255,7 @@
 			<div class="helmetSelect">
 				<label>
 					Helmet:
-					<select name="helmet" bind:value={selectedHelmetName}>
+					<select name="helmet" bind:value={selectedHelmetName} required>
 						{#each helmets as helmet}
 							<option value={helmet.name}>
 								{helmet.name}
@@ -265,7 +265,7 @@
 				</label>
 				<label>
 					Spell:
-					<select name="helmetSpell" bind:value={selectedHelmetSpellName}>
+					<select name="helmetSpell" bind:value={selectedHelmetSpellName} required>
 						{#each selectedHelmet.spell as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -275,7 +275,7 @@
 				</label>
 				<label>
 					Passive:
-					<select name="helmetPassive" bind:value={selectedHelmetPassiveName}>
+					<select name="helmetPassive" bind:value={selectedHelmetPassiveName} required>
 						{#each selectedHelmet.passive as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -287,7 +287,7 @@
 			<div class="armorSelect">
 				<label>
 					Armor:
-					<select name="armor" bind:value={selectedArmorName}>
+					<select name="armor" bind:value={selectedArmorName} required>
 						{#each armors as armor}
 							<option value={armor.name}>
 								{armor.name}
@@ -297,7 +297,7 @@
 				</label>
 				<label>
 					Spell:
-					<select name="armorSpell" bind:value={selectedArmorSpellName}>
+					<select name="armorSpell" bind:value={selectedArmorSpellName} required>
 						{#each selectedArmor.spell as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -307,7 +307,7 @@
 				</label>
 				<label>
 					Passive:
-					<select name="armorPassive" bind:value={selectedArmorPassiveName}>
+					<select name="armorPassive" bind:value={selectedArmorPassiveName} required>
 						{#each selectedArmor.passive as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -317,7 +317,7 @@
 				</label>
 				<label>
 					Passive 2:
-					<select name="armorPassive2" disabled={!selectedArmor.plate} bind:value={selectedArmorPassive2Name}>
+					<select name="armorPassive2" disabled={!selectedArmor.plate} bind:value={selectedArmorPassive2Name} required>
 						{#each selectedArmor.passive2 as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -329,7 +329,7 @@
 			<div class="bootsSelect">
 				<label>
 					Boots:
-					<select name="boots" bind:value={selectedBootsName}>
+					<select name="boots" bind:value={selectedBootsName} required>
 						{#each boots as boots}
 							<option value={boots.name}>
 								{boots.name}
@@ -339,7 +339,7 @@
 				</label>
 				<label>
 					Spell:
-					<select name="bootsSpell" bind:value={selectedBootsSpellName}>
+					<select name="bootsSpell" bind:value={selectedBootsSpellName} required>
 						{#each selectedBoots.spell as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -350,7 +350,7 @@
 
 				<label>
 					Passive:
-					<select name="bootsPassive" bind:value={selectedBootsPassiveName}>
+					<select name="bootsPassive" bind:value={selectedBootsPassiveName} required>
 						{#each selectedBoots.passive as spell}
 							<option value={spell.name}>
 								{spell.name}
@@ -362,7 +362,7 @@
 			<div class="capeSelect">
 				<label>
 					Cape:
-					<select name="cape" bind:value={selectedCapeName}>
+					<select name="cape" bind:value={selectedCapeName} required>
 						{#each capes as cape}
 							<option value={cape.name}>
 								{cape.name}
@@ -374,7 +374,7 @@
 			<div class="potionSelect">
 				<label>
 					Potion:
-					<select name="potion" bind:value={selectedPotionName}>
+					<select name="potion" bind:value={selectedPotionName} required>
 						{#each potions as potion}
 							<option value={potion.name}>
 								{potion.name}
@@ -386,7 +386,7 @@
 			<div class="foodSelect">
 				<label>
 					Food:
-					<select name="food" bind:value={selectedFoodName}>
+					<select name="food" bind:value={selectedFoodName} required>
 						{#each food as food}
 							<option value={food.name}>
 								{food.name}
@@ -396,7 +396,7 @@
 				</label>
 			</div>
 			{#if $page.data.User}
-				<label>Build Name: <input name="name" class="buildName" /> </label>
+				<label>Build Name: <input name="name" class="buildName" required /> </label>
 				<button class="save">Save build</button>
 			{/if}
 		</form>
