@@ -396,6 +396,7 @@
 				</label>
 			</div>
 			{#if $page.data.User}
+				<label>Build Name: <input name="name" class="buildName" /> </label>
 				<button class="save">Save build</button>
 			{/if}
 		</form>

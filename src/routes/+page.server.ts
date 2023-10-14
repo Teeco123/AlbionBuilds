@@ -38,6 +38,8 @@ export const actions = {
 	saveBuild: async ({ request, cookies }) => {
 		const data = await request.formData();
 
+		const name = data.get("name");
+
 		const weapon = data.get("weapon");
 		const Qspell = data.get("Qspell");
 		const Wspell = data.get("Wspell");
@@ -63,7 +65,7 @@ export const actions = {
 		const food = data.get("food");
 
 		const session = cookies.get("session");
-		var o_id = new ObjectId(session);
+		var u_id = new ObjectId(session);
 
 		//Find selected items in database
 		const foundWeaponArr = await db
@@ -183,7 +185,8 @@ export const actions = {
 		//console.dir(foundWeapon[0]._id);
 
 		db.collection("Builds").insertOne({
-			user_id: o_id,
+			name: name,
+			user_id: u_id,
 			weapon: {
 				_id: foundWeapon[0]._id,
 				name: foundWeapon[0].name,

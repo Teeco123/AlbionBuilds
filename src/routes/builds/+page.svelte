@@ -39,7 +39,7 @@
 					</div>
 					<div class="buildname">
 						Build Name:<br />
-						NAME
+						{build.name}
 					</div>
 				</div>
 				<div class="build">

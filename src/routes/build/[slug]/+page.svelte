@@ -3,7 +3,6 @@
 	import { page } from "$app/stores";
 
 	export let data: PageData;
-	let user = data.user;
 </script>
 
 <body>
@@ -35,7 +34,7 @@
 	</div>
 	<div class="info">
 		<div>Created By: {data.userBuild.login}</div>
-		<div>Build name: NAME</div>
+		<div>Build name: {data.build.name}</div>
 	</div>
 	<div class="container">
 		<div class="build">
