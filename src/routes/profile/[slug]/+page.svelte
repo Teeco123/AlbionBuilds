@@ -47,14 +47,14 @@
 				<div class="build">
 					<img class="inventory" src="/images/inventory.png" alt="inventory" />
 					<div class="items">
-						<img style="top:28.5%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
-						<img style="top:28.5%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
+						<img style="top:33.5%; left:0%" class="itemBuild" src={build.weapon.img} alt={build.weapon.name} />
+						<img style="top:33.5%; left:66%" class="itemBuild" src={build.offhand.img} alt={build.offhand.name} />
 						<img style="top:0%; left:33%" class="itemBuild" src={build.helmet.img} alt={build.helmet.name} />
-						<img style="top:25.5%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
-						<img style="top:51.5%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
+						<img style="top:30.5%; left:33%" class="itemBuild" src={build.armor.img} alt={build.armor.name} />
+						<img style="top:61%; left:33%" class="itemBuild" src={build.boots.img} alt={build.boots.name} />
 						<img style="top:3%; left:66%" class="itemBuild" src={build.cape.img} alt={build.cape.name} />
-						<img style="top:54.5%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
-						<img style="top:54.5%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
+						<img style="top:64%; left:0%" class="itemBuild" src={build.potion.img} alt={build.potion.name} />
+						<img style="top:64%; left:66%" class="itemBuild" src={build.food.img} alt={build.food.name} />
 					</div>
 				</div>
 			</a>
@@ -110,13 +110,13 @@
 			.info {
 				display: flex;
 				justify-content: space-around;
-				width: 90%;
+				scale: 100%;
 				height: 9%;
 				background-color: #eeeeee;
 				margin: 5%;
 				border-radius: 9px 9px 9px 09px;
 				padding: 2px;
-				transition: width 1s, margin 1s, border-radius 1s;
+				transition: margin 1s, border-radius 1s;
 				.buildname {
 					display: flex;
 					text-align: center;
@@ -125,13 +125,12 @@
 			}
 			.build {
 				margin: 5%;
-				width: 90%;
-				height: 90%;
+				scale: 100%;
 				position: relative;
 				background-color: #eeeeee;
 				border-radius: 9px;
 				padding: 2px;
-				transition: width 1s, height 1s, margin 1s, border-radius 1s;
+				transition: margin 1s, border-radius 1s;
 				.inventory {
 					width: 100%;
 				}
@@ -145,13 +144,10 @@
 		}
 
 		.buildContainer:hover > .info {
-			width: 100%;
 			margin: 0%;
 			border-radius: 9px 9px 0px 0px;
 		}
 		.buildContainer:hover > .build {
-			width: 100%;
-			height: 100%;
 			margin: 0%;
 			border-radius: 0px 0px 9px 9px;
 		}
