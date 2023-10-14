@@ -103,20 +103,19 @@
 		margin: 3% 2% 3% 2%;
 		display: grid;
 		grid-template-columns: auto auto auto auto auto;
-		gap: 10% 2%;
+		gap: 3% 2%;
 		.buildContainer {
 			text-decoration: none;
 			color: black;
 			.info {
 				display: flex;
 				justify-content: space-around;
-				scale: 100%;
+				scale: 90%;
 				height: 9%;
 				background-color: #eeeeee;
-				margin: 5%;
 				border-radius: 9px 9px 9px 09px;
 				padding: 2px;
-				transition: margin 1s, border-radius 1s;
+				transition: scale 1s, margin 1s, border-radius 1s;
 				.buildname,
 				.nickname {
 					display: flex;
@@ -125,13 +124,12 @@
 				}
 			}
 			.build {
-				margin: 5%;
-				scale: 100%;
+				scale: 90%;
 				position: relative;
 				background-color: #eeeeee;
 				border-radius: 9px;
 				padding: 2px;
-				transition: margin 1s, border-radius 1s;
+				transition: scale 1s, margin 1s, border-radius 1s;
 				.inventory {
 					width: 100%;
 				}
@@ -145,10 +143,12 @@
 		}
 
 		.buildContainer:hover > .info {
+			scale: 100%;
 			margin: 0%;
 			border-radius: 9px 9px 0px 0px;
 		}
 		.buildContainer:hover > .build {
+			scale: 100%;
 			margin: 0%;
 			border-radius: 0px 0px 9px 9px;
 		}
