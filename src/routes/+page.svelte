@@ -198,7 +198,7 @@
 	</div>
 	<div class="form">
 		<form action="?/saveBuild" method="post">
-			<div class="weaponSelect">
+			<div class="select">
 				<label>
 					Weapon:
 					<select name="weapon" bind:value={selectedWeaponName} required>
@@ -240,7 +240,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="offhandSelect">
+			<div class="select">
 				<label>
 					Offhand:
 					<select name="offhand" disabled={!selectedWeapon.onehand} bind:value={selectedOffhandName} required>
@@ -252,7 +252,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="helmetSelect">
+			<div class="select">
 				<label>
 					Helmet:
 					<select name="helmet" bind:value={selectedHelmetName} required>
@@ -284,7 +284,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="armorSelect">
+			<div class="select">
 				<label>
 					Armor:
 					<select name="armor" bind:value={selectedArmorName} required>
@@ -326,7 +326,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="bootsSelect">
+			<div class="select">
 				<label>
 					Boots:
 					<select name="boots" bind:value={selectedBootsName} required>
@@ -359,7 +359,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="capeSelect">
+			<div class="select">
 				<label>
 					Cape:
 					<select name="cape" bind:value={selectedCapeName} required>
@@ -371,7 +371,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="potionSelect">
+			<div class="select">
 				<label>
 					Potion:
 					<select name="potion" bind:value={selectedPotionName} required>
@@ -383,7 +383,7 @@
 					</select>
 				</label>
 			</div>
-			<div class="foodSelect">
+			<div class="select">
 				<label>
 					Food:
 					<select name="food" bind:value={selectedFoodName} required>
@@ -396,7 +396,7 @@
 				</label>
 			</div>
 			{#if $page.data.User}
-				<label>Build Name: <input name="name" class="buildName" required /> </label>
+				<label class="buildName">Build Name: <input name="name" maxlength="20" required /> </label>
 				<button class="save">Save build</button>
 			{/if}
 		</form>
@@ -488,6 +488,9 @@
 	}
 
 	.form {
+		.select {
+			margin-top: 10px;
+		}
 		label {
 			margin-top: 8px;
 			margin-left: 10px;
@@ -539,6 +542,63 @@
 					width: 70px;
 				}
 			}
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		body {
+			height: auto;
+			width: 100vw;
+		}
+	}
+
+	@media only screen and (max-width: 560px) {
+		body {
+			height: auto;
+		}
+		.header {
+			flex-direction: column;
+			text-align: center;
+			.buttons {
+				display: flex;
+				justify-content: center;
+				button {
+					float: none;
+				}
+			}
+		}
+		.form {
+			display: flex;
+			justify-content: center;
+			.select {
+				display: flex;
+				flex-direction: column;
+				margin-top: 10px;
+				label {
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					select {
+						display: flex;
+						justify-content: center;
+						margin: auto;
+					}
+				}
+			}
+			.buildName {
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				margin-top: 25px;
+			}
+			.save {
+				display: flex;
+				margin: 25px auto 0px auto;
+			}
+		}
+
+		.container {
+			scale: 70%;
 		}
 	}
 </style>

@@ -33,8 +33,8 @@
 		</div>
 	</div>
 	<div class="info">
-		<div>Created By: {data.userBuild.login}</div>
-		<div>Build name: {data.build.name}</div>
+		<div>Created By: <br /> {data.userBuild.login}</div>
+		<div>Build name: <br />{data.build.name}</div>
 	</div>
 	<div class="container">
 		<div class="build">
@@ -123,16 +123,17 @@
 	}
 
 	.info {
-		background-color: #e0e0e0;
 		display: flex;
 		justify-content: space-evenly;
-		margin: 50px 20% 50px 20%;
+		background-color: #e0e0e0;
+
+		margin: 50px 20vw 50px 20vw;
 		padding: 20px;
 		border-radius: 15px;
-	}
-
-	.info div {
-		font-size: 20px;
+		div {
+			text-align: center;
+			font-size: 1vw;
+		}
 	}
 
 	.container {
@@ -140,38 +141,99 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
+		margin: 20px 0 0 0;
+		.build {
+			margin-right: 50px;
+			margin-left: 50px;
+			position: relative;
+			.inventory {
+				width: 600px;
+			}
+			.items {
+				.itemBuild {
+					position: absolute;
+				}
+			}
+		}
+		.spellBox {
+			.spells {
+				margin-top: 5px;
+				border-radius: 10px;
+				padding-top: 5px;
+				width: 456px;
+				height: 148px;
+				.itemName {
+					margin-left: 12px;
+					font-size: 16px;
+				}
+				.item {
+					width: 120px;
+				}
+				.spell {
+					width: 80px;
+				}
+			}
+		}
+	}
+	@media only screen and (max-width: 1155px) {
+		body {
+			height: auto;
+		}
+		.info {
+			div {
+				font-size: 2vw;
+			}
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		.info {
+			margin: 50px 10vw 50px 10vw;
+			div {
+				font-size: 2.5vw;
+			}
+		}
 	}
 
-	.build {
-		margin-right: 50px;
-		margin-left: 50px;
-		position: relative;
+	@media only screen and (max-width: 630px) {
+		.header {
+			flex-direction: column;
+			text-align: center;
+			.buttons {
+				display: flex;
+				justify-content: center;
+				button {
+					float: none;
+				}
+			}
+		}
+		.info {
+			div {
+				width: 60%;
+				font-size: 4vw;
+			}
+		}
+		.container {
+			translate: 0 -15vh;
+			scale: 80%;
+		}
 	}
 
-	.inventory {
-		width: 600px;
+	@media only screen and (max-width: 500px) {
+		.container {
+			translate: 0 -20vh;
+			scale: 75%;
+		}
 	}
 
-	.itemBuild {
-		position: absolute;
-	}
-
-	.item {
-		width: 120px;
-	}
-
-	.itemName {
-		margin-left: 12px;
-		font-size: 16px;
-	}
-
-	.spell {
-		width: 80px;
-	}
-
-	.spells {
-		margin-top: 5px;
-		border-radius: 10px;
-		padding-top: 5px;
+	@media only screen and (max-width: 460px) {
+		.info {
+			div {
+				font-size: 4vw;
+			}
+		}
+		.container {
+			translate: 0 -25vh;
+			scale: 65%;
+		}
 	}
 </style>

@@ -20,7 +20,6 @@ export const load = async ({ params }) => {
 export const actions = {
 	logout: async ({ cookies }) => {
 		cookies.delete("session", { path: "/" });
-		console.log(cookies.get("session"));
 
 		throw redirect(303, "/");
 	},

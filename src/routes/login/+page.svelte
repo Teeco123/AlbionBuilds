@@ -9,9 +9,9 @@
 		<form action="?/login" method="post">
 			<div class="inputs">
 				<p>Login:</p>
-				<input name="login" type="text" /><br />
+				<input name="login" type="text" minlength="3" maxlength="25" /><br />
 				<p>Password:</p>
-				<input id="password" name="password" type="password" /><br />
+				<input id="password" name="password" type="password" minlength="6" /><br />
 			</div>
 			{#if form?.success}
 				<p class="goodMessage">User registered succesfully!</p>

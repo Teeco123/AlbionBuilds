@@ -33,10 +33,6 @@
 		{#each builds as build}
 			<a class="buildContainer" href="/build/{build._id}">
 				<div class="info">
-					<div class="nickname">
-						Created By:<br />
-						NICK
-					</div>
 					<div class="buildname">
 						Build Name:<br />
 						{build.name}
@@ -109,16 +105,14 @@
 			color: black;
 			.info {
 				display: flex;
-				justify-content: space-around;
+				justify-content: center;
 				scale: 90%;
 				height: 9%;
 				background-color: #eeeeee;
 				border-radius: 9px 9px 9px 09px;
 				padding: 2px;
 				transition: scale 1s, margin 1s, border-radius 1s;
-				.buildname,
-				.nickname {
-					display: flex;
+				.buildname {
 					text-align: center;
 					font-size: 0.8vw;
 				}
@@ -159,22 +153,7 @@
 			grid-template-columns: auto auto auto;
 			.buildContainer {
 				.info {
-					.buildname,
-					.nickname {
-						font-size: 1.4vw;
-					}
-				}
-			}
-		}
-	}
-
-	@media only screen and (max-width: 768px) {
-		.builds {
-			grid-template-columns: auto auto auto;
-			.buildContainer {
-				.info {
-					.buildname,
-					.nickname {
+					.buildname {
 						font-size: 1.4vw;
 					}
 				}
@@ -200,8 +179,7 @@
 			gap: 1% 3%;
 			.buildContainer {
 				.info {
-					.buildname,
-					.nickname {
+					.buildname {
 						font-size: 4vw;
 					}
 				}
