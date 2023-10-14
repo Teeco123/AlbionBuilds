@@ -33,9 +33,11 @@
 </body>
 
 <style>
+	@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 	body {
 		margin: 0;
 		background-color: rgb(69, 69, 69);
+		font-family: "Roboto";
 	}
 	.container {
 		height: 1000px;
