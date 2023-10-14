@@ -154,4 +154,43 @@
 			border-radius: 0px 0px 9px 9px;
 		}
 	}
+
+	@media only screen and (max-width: 768px) {
+		.builds {
+			grid-template-columns: auto auto auto;
+			.buildContainer {
+				.info {
+					.buildname {
+						font-size: 1.4vw;
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: 425px) {
+		.header {
+			flex-direction: column;
+			text-align: center;
+			.buttons {
+				display: flex;
+				justify-content: center;
+				button {
+					float: none;
+				}
+			}
+		}
+		.builds {
+			grid-template-columns: auto;
+
+			gap: 1% 3%;
+			.buildContainer {
+				.info {
+					.buildname {
+						font-size: 4vw;
+					}
+				}
+			}
+		}
+	}
 </style>
