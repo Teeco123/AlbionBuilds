@@ -13,7 +13,9 @@
 
 	let selectedWeaponName = "";
 	let selectedQspellName = "";
+	let selectedQ2spellName = "";
 	let selectedWspellName = "";
+	let selectedW2spellName = "";
 	let selectedWeaponPassiveName = "";
 
 	let selectedOffhandName = "";
@@ -38,22 +40,38 @@
 	const DEFAULT_WEAPON: {
 		name: string;
 		onehand: boolean;
+		shapeshifter: boolean;
 		img: string;
 		Qspell: { name: string; img: string }[];
+		Q2spell: { name: string; img: string }[];
 		Wspell: { name: string; img: string }[];
+		W2spell: { name: string; img: string }[];
 		Espell: { name: string; img: string }[];
 		Passive: { name: string; img: string }[];
 	} = {
 		name: "",
 		onehand: true,
-		img: "images/no-item.png",
+		shapeshifter: false,
+		img: "",
 		Qspell: [
 			{
 				name: "",
 				img: ""
 			}
 		],
+		Q2spell: [
+			{
+				name: "",
+				img: ""
+			}
+		],
 		Wspell: [
+			{
+				name: "",
+				img: ""
+			}
+		],
+		W2spell: [
 			{
 				name: "",
 				img: ""
@@ -146,7 +164,9 @@
 
 	$: selectedWeapon = weapons.find((weapon: any) => weapon.name === selectedWeaponName) || DEFAULT_WEAPON;
 	$: selectedQspell = selectedWeapon.Qspell.find((Qspell: any) => Qspell.name === selectedQspellName) || DEFAULT_WEAPON.Qspell;
+	$: selectedQ2spell = selectedWeapon.Q2spell.find((Q2spell: any) => Q2spell.name === selectedQ2spellName) || DEFAULT_WEAPON.Q2spell;
 	$: selectedWspell = selectedWeapon.Wspell.find((Wspell: any) => Wspell.name === selectedWspellName) || DEFAULT_WEAPON.Wspell;
+	$: selectedW2spell = selectedWeapon.W2spell.find((W2spell: any) => W2spell.name === selectedW2spellName) || DEFAULT_WEAPON.W2spell;
 	$: selectedWeaponPassive = selectedWeapon.Passive.find((Passive: any) => Passive.name === selectedWeaponPassiveName) || DEFAULT_WEAPON.Passive;
 
 	$: selectedOffhand = offhands.find((offhand: any) => offhand.name === selectedOffhandName) || DEFAULT_OFFHAND;
@@ -233,6 +253,26 @@
 					Passive:
 					<select name="weaponPassive" bind:value={selectedWeaponPassiveName} required>
 						{#each selectedWeapon.Passive as spell}
+							<option value={spell.name}>
+								{spell.name}
+							</option>
+						{/each}
+					</select>
+				</label>
+				<label>
+					Q2 Spell:
+					<select name="Q2spell" disabled={!selectedWeapon.shapeshifter} bind:value={selectedQ2spellName} required>
+						{#each selectedWeapon.Q2spell as spell}
+							<option value={spell.name}>
+								{spell.name}
+							</option>
+						{/each}
+					</select>
+				</label>
+				<label>
+					Q Spell:
+					<select name="W2spell" disabled={!selectedWeapon.shapeshifter} bind:value={selectedW2spellName} required>
+						{#each selectedWeapon.W2spell as spell}
 							<option value={spell.name}>
 								{spell.name}
 							</option>
