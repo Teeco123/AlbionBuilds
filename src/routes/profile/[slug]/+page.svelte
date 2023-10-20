@@ -104,7 +104,7 @@
 	.builds {
 		margin: 3% 2% 3% 2%;
 		display: grid;
-		grid-template-columns: auto auto auto auto auto;
+		grid-template-columns: repeat(5, 1fr);
 		gap: 3% 2%;
 		.buildContainer {
 			text-decoration: none;
@@ -157,7 +157,7 @@
 
 	@media only screen and (max-width: 768px) {
 		.builds {
-			grid-template-columns: auto auto auto;
+			grid-template-columns: repeat(3, 1fr);
 			.buildContainer {
 				.info {
 					.buildname {
@@ -181,7 +181,7 @@
 			}
 		}
 		.builds {
-			grid-template-columns: auto;
+			grid-template-columns: 1fr;
 
 			gap: 1% 3%;
 			.buildContainer {
