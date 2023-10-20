@@ -45,7 +45,9 @@
 		Wspell: { name: string; img: string }[];
 		W2spell: { name: string; img: string }[];
 		Espell: { name: string; img: string }[];
+		Espell2: { name: string; img: string }[];
 		Passive: { name: string; img: string }[];
+		Passive2: { name: string; img: string }[];
 	} = {
 		name: "",
 		onehand: true,
@@ -81,7 +83,19 @@
 				img: ""
 			}
 		],
+		E2spell: [
+			{
+				name: "",
+				img: ""
+			}
+		],
 		Passive: [
+			{
+				name: "",
+				img: ""
+			}
+		],
+		Passive2: [
 			{
 				name: "",
 				img: ""
@@ -439,6 +453,12 @@
 				<img class="spell" src={selectedWspell.img} alt={selectedWspell.name} />
 				<img class="spell" src={selectedWeapon.Espell[0].img} alt={selectedWeapon.Espell[0].name} />
 				<img class="spell" src={selectedWeaponPassive.img} alt={selectedWeaponPassive.name} />
+				<div class="spells2">
+					<img class="spell2" src={selectedWeapon.Q2spell[0].img} alt={selectedWeapon.Q2spell[0].name} style="top:40px; left:135px" />
+					<img class="spell2" src={selectedWeapon.W2spell[0].img} alt={selectedWeapon.W2spell[0].name} style="top:40px; left:210px" />
+					<!-- REMOVE COMMENT AFTER IMG IS ADDED   <img class="spell2" src={selectedWeapon.E2spell[0].img} alt={selectedWeapon.E2spell[0].name} style="top:40px; left:275px" />-->
+					<img class="spell2" src={selectedWeapon.Passive2[0].img} alt={selectedWeapon.Passive2[0].name} style="top:40px; left:360px" />
+				</div>
 			</div>
 			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{selectedHelmet.name}</div>
@@ -541,6 +561,7 @@
 			}
 		}
 		.spellBox {
+			position: relative;
 			.spells {
 				margin-top: 5px;
 				border-radius: 10px;
@@ -556,6 +577,10 @@
 				}
 				.spell {
 					width: 70px;
+				}
+				.spell2 {
+					width: 60px;
+					position: absolute;
 				}
 			}
 		}
