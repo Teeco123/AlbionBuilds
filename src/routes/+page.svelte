@@ -45,7 +45,7 @@
 		Wspell: { name: string; img: string }[];
 		W2spell: { name: string; img: string }[];
 		Espell: { name: string; img: string }[];
-		Espell2: { name: string; img: string }[];
+		E2spell: { name: string; img: string }[];
 		Passive: { name: string; img: string }[];
 		Passive2: { name: string; img: string }[];
 	} = {
