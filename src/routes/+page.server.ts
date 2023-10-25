@@ -217,7 +217,12 @@ export const actions = {
 				Qspell: foundWeapon[0].Qspell,
 				Wspell: foundWeapon[0].Wspell,
 				Espell: foundWeapon[0].Espell[0],
-				Passive: foundWeapon[0].Passive
+				Passive: foundWeapon[0].Passive,
+				shapeshifter: foundWeapon[0].shapeshifter,
+				Q2spell: foundWeapon[0].Q2spell[0],
+				W2spell: foundWeapon[0].W2spell[0],
+				E2spell: foundWeapon[0].E2spell[0],
+				Passive2: foundWeapon[0].Passive2[0]
 			},
 			offhand: {
 				_id: foundOffhand[0]?._id,
