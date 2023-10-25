@@ -4,14 +4,38 @@ import { ObjectId } from "mongodb";
 import { redirect } from "@sveltejs/kit";
 
 export const load = async () => {
-	const weaponsArr = await db.collection("Weapons").find().toArray();
-	const offhandsArr = await db.collection("Offhands").find().toArray();
-	const helmetsArr = await db.collection("Helmets").find().toArray();
-	const armorsArr = await db.collection("Armors").find().toArray();
-	const bootsArr = await db.collection("Boots").find().toArray();
-	const capesArr = await db.collection("Capes").find().toArray();
-	const potionsArr = await db.collection("Potions").find().toArray();
-	const foodArr = await db.collection("Food").find().toArray();
+	const weaponsArr = await db
+		.collection("Weapons")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const offhandsArr = await db
+		.collection("Offhands")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const helmetsArr = await db
+		.collection("Helmets")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const armorsArr = await db
+		.collection("Armors")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const bootsArr = await db
+		.collection("Boots")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const capesArr = await db
+		.collection("Capes")
+		.aggregate([{ $sort: { _id: 1 } }])
+		.toArray();
+	const potionsArr = await db
+		.collection("Potions")
+		.aggregate([{ $sort: { name: 1 } }])
+		.toArray();
+	const foodArr = await db
+		.collection("Food")
+		.aggregate([{ $sort: { name: 1 } }])
+		.toArray();
 
 	const weapons = JSON.parse(JSON.stringify(weaponsArr));
 	const offhands = JSON.parse(JSON.stringify(offhandsArr));
