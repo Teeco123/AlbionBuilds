@@ -58,6 +58,12 @@
 				<img class="spell" src={data.build.weapon.Wspell.img} alt={data.build.weapon.Wspell.name} />
 				<img class="spell" src={data.build.weapon.Espell.img} alt={data.build.weapon.Espell.name} />
 				<img class="spell" src={data.build.weapon.Passive.img} alt={data.build.weapon.Passive.name} />
+				<div class="spells2">
+					<img class="spell2" src={data.build.weapon.Q2spell.img} alt={data.build.weapon.Q2spell.name} style="top:40px; left:135px" />
+					<img class="spell2" src={data.build.weapon.W2spell.img} alt={data.build.weapon.W2spell.name} style="top:40px; left:210px" />
+					<!-- REMOVE COMMENT AFTER IMG IS ADDED   <img class="spell2" src={data.build.weapon.E2spell.img} alt={data.build.weapon.E2spell.name} style="top:40px; left:275px" />-->
+					<img class="spell2" src={data.build.weapon.Passive2.img} alt={data.build.weapon.Passive2.name} style="top:40px; left:360px" />
+				</div>
 			</div>
 			<div class="spells" style="background-color:#e0e0e0">
 				<div class="itemName">{data.build.helmet.name}</div>
@@ -156,21 +162,26 @@
 			}
 		}
 		.spellBox {
+			position: relative;
 			.spells {
 				margin-top: 5px;
 				border-radius: 10px;
 				padding-top: 5px;
-				width: 456px;
-				height: 148px;
+				width: 410px;
+				height: 130px;
 				.itemName {
 					margin-left: 12px;
 					font-size: 16px;
 				}
 				.item {
-					width: 120px;
+					width: 110px;
 				}
 				.spell {
-					width: 80px;
+					width: 70px;
+				}
+				.spell2 {
+					width: 60px;
+					position: absolute;
 				}
 			}
 		}
